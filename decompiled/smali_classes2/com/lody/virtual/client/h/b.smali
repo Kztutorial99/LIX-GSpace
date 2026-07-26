@@ -161,7 +161,8 @@
 .end method
 
 .method public e(Lcom/lody/virtual/remote/VDeviceConfig;)V
-    .locals 4
+    # Bumped from .locals 4 to .locals 5 — v4 needed for wide long offset (Unsafe approach)
+    .locals 5
 
     .line 7
     iget-object v0, p1, Lcom/lody/virtual/remote/VDeviceConfig;->b:Ljava/lang/String;
@@ -262,19 +263,61 @@
     invoke-virtual {p1, v1, v0}, Lcom/lody/virtual/helper/a/f;->m(Ljava/lang/String;Ljava/lang/Object;)Lcom/lody/virtual/helper/a/f;
 
     :cond_2
-    # [ANTI-TRACK PATCH] Always spoof Build.FINGERPRINT via reflection
-    sget-object p1, Lmirror/c/m/o;->TYPE:Ljava/lang/Class;
+    # [FIX v2] Spoof Build.FINGERPRINT via sun.misc.Unsafe
+    # Primary: Unsafe.putObject() — bypasses final field restriction on Android 9-13+
+    # Fallback: mirror reflection — for Android 8.x compatibility
+    const-string v4, "generic/android/generic:11/RQ3A.210905.001/7474174:user/release-keys"
 
-    invoke-static {p1}, Lcom/lody/virtual/helper/a/f;->g(Ljava/lang/Class;)Lcom/lody/virtual/helper/a/f;
+    :try_start_fp
+    # Step 1 — Get Unsafe instance via theUnsafe field
+    const-class v0, Lsun/misc/Unsafe;
+    const-string v1, "theUnsafe"
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    move-result-object v1
+    const/4 v2, 0x1
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    const/4 v2, 0x0
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v0             # v0 = Unsafe instance
 
-    move-result-object p1
+    # Step 2 — Get Build.FINGERPRINT field reference
+    const-class v1, Landroid/os/Build;
+    const-string v2, "FINGERPRINT"
+    invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    move-result-object v1             # v1 = Field(FINGERPRINT)
 
+    # Step 3 — Get base object for static field
+    invoke-virtual {v0, v1}, Lsun/misc/Unsafe;->staticFieldBase(Ljava/lang/reflect/Field;)Ljava/lang/Object;
+    move-result-object v2             # v2 = base Object
+
+    # Step 4 — Get static field offset (long → wide pair v3:v4)
+    # Save fingerprint string from v4 to p1 before v4 gets overwritten by move-result-wide
+    move-object p1, v4
+    invoke-virtual {v0, v1}, Lsun/misc/Unsafe;->staticFieldOffset(Ljava/lang/reflect/Field;)J
+    move-result-wide v3               # v3 = offset_lo, v4 = offset_hi (v4 overwritten, OK)
+
+    # Step 5 — Write new value, bypasses all access and final checks
+    # Registers: v0=Unsafe, v2=base, v3:v4=offset(long), p1=new value
+    invoke-virtual {v0, v2, v3, v4, p1}, Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    :try_end_fp
+    .catch Ljava/lang/Throwable; {:try_start_fp .. :try_end_fp} :catch_fp
+
+    goto :fp_done
+
+    :catch_fp
+    # Fallback: mirror reflection (Android 8.x / devices where Unsafe path fails)
+    :try_start_fb
+    sget-object v0, Lmirror/c/m/o;->TYPE:Ljava/lang/Class;
+    invoke-static {v0}, Lcom/lody/virtual/helper/a/f;->g(Ljava/lang/Class;)Lcom/lody/virtual/helper/a/f;
+    move-result-object v0
     const-string v1, "FINGERPRINT"
+    const-string v2, "generic/android/generic:11/RQ3A.210905.001/7474174:user/release-keys"
+    invoke-virtual {v0, v1, v2}, Lcom/lody/virtual/helper/a/f;->m(Ljava/lang/String;Ljava/lang/Object;)Lcom/lody/virtual/helper/a/f;
+    :try_end_fb
+    .catch Ljava/lang/Throwable; {:try_start_fb .. :try_end_fb} :catch_fb
+    :catch_fb
 
-    const-string v0, "generic/android/generic:11/RQ3A.210905.001/7474174:user/release-keys"
-
-    invoke-virtual {p1, v1, v0}, Lcom/lody/virtual/helper/a/f;->m(Ljava/lang/String;Ljava/lang/Object;)Lcom/lody/virtual/helper/a/f;
-
+    :fp_done
     return-void
 .end method
 
