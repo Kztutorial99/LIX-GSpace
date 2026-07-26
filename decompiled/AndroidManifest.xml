@@ -234,7 +234,7 @@
             <data android:scheme="https"/>
         </intent>
     </queries>
-    <application android:allowBackup="false" android:allowNativeHeapPointerTagging="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:fullBackupContent="false" android:hardwareAccelerated="true" android:icon="@mipmap/MT_Bin" android:label="LIXynSo GSpace" android:largeHeap="true" android:name="com.dualspace.multispace.application.MultiSpaceApplication" android:networkSecurityConfig="@xml/xml_7f140002" android:requestLegacyExternalStorage="true" android:screenOrientation="landscape" android:supportsRtl="true" android:theme="@style/style_7f120029" android:usesCleartextTraffic="true">
+    <application android:allowBackup="false" android:allowNativeHeapPointerTagging="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:fullBackupContent="false" android:hardwareAccelerated="true" android:icon="@mipmap/MT_Bin" android:label="IWXLOADER" android:largeHeap="true" android:name="com.dualspace.multispace.application.MultiSpaceApplication" android:networkSecurityConfig="@xml/xml_7f140002" android:requestLegacyExternalStorage="true" android:screenOrientation="landscape" android:supportsRtl="true" android:theme="@style/style_7f120029" android:usesCleartextTraffic="true">
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/integer_7f0a0007"/>
         <meta-data android:name="android.max_aspect" android:value="2.3"/>
@@ -271,7 +271,7 @@
             </intent-filter>
         </service>
         <provider android:authorities="com.dualspace.multispace.androidx.main.SharedPrefProvider" android:exported="false" android:name="com.unity3d.tools.utils.pref.SharedPrefProvider"/>
-        <receiver android:exported="true" android:label="LIXynSo GSpace" android:name="com.dualspace.multispace.ui.AppUninstallReceiver">
+        <receiver android:exported="true" android:label="IWXLOADER" android:name="com.dualspace.multispace.ui.AppUninstallReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REMOVED"/>
                 <action android:name="android.intent.action.PACKAGE_ADDED"/>

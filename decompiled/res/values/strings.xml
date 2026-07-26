@@ -35,7 +35,7 @@
     <string name="string_7f11001f">Please select at least one app</string>
     <string name="string_7f110020">Other Apps</string>
     <string name="string_7f110021">Recommend</string>
-    <string name="string_7f110022">Add to LIXynSo GSpace</string>
+    <string name="string_7f110022">Add to IWXLOADER</string>
     <string name="string_7f110023">Add app here</string>
     <string name="string_7f110024">Advanced mode</string>
     <string name="string_7f110025">Enable subtitles</string>
@@ -101,7 +101,7 @@
     <string name="string_7f110061">Cloning %s</string>
     <string name="string_7f110062">12fwl6pGm7PmKjFpP82im502KN8lVRU2J+rAH/qyu4TOTo4KGDJj4Y6kKOzlTGCaZYgXMlbWMZYV9TnvaKb08Wod0rsobMgrMfNFSDOKl705Yd56507dtfwk4MjF9xPewtbGyha6O</string>
     <string name="string_7f110063">B4nkQVp5sZn3E7nbJiNdOq8ikq1J0w_v_mskql31zJAmeMGTSmMDGT2Z2ZkTlek4vFSsmsi60d53qFocnwJ6V0</string>
-    <string name="string_7f110064">LIXynSo GSpace</string>
+    <string name="string_7f110064">IWXLOADER</string>
     <string name="string_7f110065">Opening %s</string>
     <string name="string_7f110066">The %s failed to open</string>
     <string name="string_7f110067">Enable the Creative Debugger SDK settings in order to view recent ads.</string>
@@ -217,7 +217,7 @@
     <string name="string_7f1100d2">Running...</string>
     <string name="string_7f1100d3">Remove Service Notification</string>
     <string name="string_7f1100d4">Remove Service Notification</string>
-    <string name="string_7f1100d5">LIXynSo GSpace</string>
+    <string name="string_7f1100d5">IWXLOADER</string>
     <string name="string_7f1100d6">Lifetime</string>
     <string name="string_7f1100d7">Loading...</string>
     <string name="string_7f1100d8">Loading…</string>
@@ -253,7 +253,7 @@
     <string name="string_7f1100f6">The current network environment is abnormal</string>
     <string name="string_7f1100f7">No find applications</string>
     <string name="string_7f1100f8">No,thank you</string>
-    <string name="string_7f1100f9">Keep LIXynSo GSpace alive to receive messages in time</string>
+    <string name="string_7f1100f9">Keep IWXLOADER alive to receive messages in time</string>
     <string name="string_7f1100fa">To receive messages and notifications in time</string>
     <string name="string_7f1100fb">Receiving messages...</string>
     <string name="string_7f1100fc">Enable Notifications</string>
@@ -268,13 +268,13 @@
     <string name="string_7f110105">Original WA Web UI, the display is not good, but runs stably.</string>
     <string name="string_7f110106">%s months</string>
     <string name="string_7f110107">Admin</string>
-    <string name="string_7f110108">"Please permit LIXynSo GSpace to acquire permissions.
+    <string name="string_7f110108">"Please permit IWXLOADER to acquire permissions.
 Otherwise, you will not be able to use cloned apps normally."</string>
     <string name="string_7f110109">Permit Permissions</string>
     <string name="string_7f11010a">CANCEL</string>
-    <string name="string_7f11010b">LIXynSo GSpace need storage permissions to store information for you. Otherwise, you will not be able to use cloned apps normally.</string>
+    <string name="string_7f11010b">IWXLOADER need storage permissions to store information for you. Otherwise, you will not be able to use cloned apps normally.</string>
     <string name="string_7f11010c">GO SET</string>
-    <string name="string_7f11010d">Route: Settings -> Applications -> LIXynSo GSpace -> Permissions -> Storage</string>
+    <string name="string_7f11010d">Route: Settings -> Applications -> IWXLOADER -> Permissions -> Storage</string>
     <string name="string_7f11010e">Privacy Policy</string>
     <string name="project_id">multispace2024-869e2</string>
     <string name="string_7f110110">Tap the screen to reload</string>
