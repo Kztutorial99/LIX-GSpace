@@ -17,7 +17,7 @@
     return-void
 .end method
 
-# [ANTI-TRACK PATCH] Always return fake IMEI from VDeviceConfig — never real
+# [FIX v3] Always return fake IMEI — null-safe (VDeviceConfig may be null on first launch)
 .method public varargs b(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
@@ -26,6 +26,9 @@
 
     invoke-static {}, Lcom/lody/virtual/client/hook/base/g;->u()Lcom/lody/virtual/remote/VDeviceConfig;
     move-result-object v0
+
+    # null guard: VDeviceConfig belum init saat app pertama kali dibuka di virtual space
+    if-eqz v0, :fake_default
 
     iget-object v0, v0, Lcom/lody/virtual/remote/VDeviceConfig;->g:Ljava/lang/String;
 
