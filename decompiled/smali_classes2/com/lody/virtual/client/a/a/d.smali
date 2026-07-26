@@ -783,14 +783,16 @@
     move-result-object v0
 
     .line 13
-    iget-boolean v3, v0, Lcom/lody/virtual/remote/VDeviceConfig;->h:Z
-
-    if-eqz v3, :cond_4
-
+    # [ANTI-TRACK PATCH] Remove h-flag check — always return fake android_id
     iget-object v0, v0, Lcom/lody/virtual/remote/VDeviceConfig;->i:Ljava/lang/String;
 
-    if-eqz v0, :cond_4
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    move-result v3
+    if-eqz v3, :android_id_set
 
+    const-string v0, "deadbeef00c0ffee"
+
+    :android_id_set
     .line 14
     invoke-direct {p0, p4, v0}, Lcom/lody/virtual/client/a/a/d;->ao(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
 

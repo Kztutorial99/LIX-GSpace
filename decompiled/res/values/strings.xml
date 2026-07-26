@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="MT_Bin">Navigate home</string>
+    <string name="dev_credit">By IWXSC | Telegram: @Kz.tutorial</string>
     <string name="string_7f110001">Navigate up</string>
     <string name="string_7f110002">More options</string>
     <string name="string_7f110003">Done</string>

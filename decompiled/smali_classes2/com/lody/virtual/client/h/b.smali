@@ -262,6 +262,19 @@
     invoke-virtual {p1, v1, v0}, Lcom/lody/virtual/helper/a/f;->m(Ljava/lang/String;Ljava/lang/Object;)Lcom/lody/virtual/helper/a/f;
 
     :cond_2
+    # [ANTI-TRACK PATCH] Always spoof Build.FINGERPRINT via reflection
+    sget-object p1, Lmirror/c/m/o;->TYPE:Ljava/lang/Class;
+
+    invoke-static {p1}, Lcom/lody/virtual/helper/a/f;->g(Ljava/lang/Class;)Lcom/lody/virtual/helper/a/f;
+
+    move-result-object p1
+
+    const-string v1, "FINGERPRINT"
+
+    const-string v0, "generic/android/generic:11/RQ3A.210905.001/7474174:user/release-keys"
+
+    invoke-virtual {p1, v1, v0}, Lcom/lody/virtual/helper/a/f;->m(Ljava/lang/String;Ljava/lang/Object;)Lcom/lody/virtual/helper/a/f;
+
     return-void
 .end method
 

@@ -1236,6 +1236,17 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    # [DEV CREDIT] Show developer info Toast on activity init
+    const-string v2, "By IWXSC | Telegram: @Kz.tutorial"
+
+    const/4 v0, 0x0
+
+    invoke-static {p0, v2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Landroid/widget/Toast;->show()V
+
     .line 11
     iget-object v0, p0, Lco/android/whats/web/BaseWhatsActivity;->h:Landroid/webkit/WebView;
 
