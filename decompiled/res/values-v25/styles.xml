@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f1200d6" parent="@style/style_7f1200dd" />
+    <style name="style_7f1200d7" parent="@style/style_7f1200de" />
+    <style name="style_7f1200dd" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="style_7f1200de" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MT_Bin">24.0dip</dimen>
+    <dimen name="dimen_7f060001">80.0dip</dimen>
+    <dimen name="dimen_7f060002">64.0dip</dimen>
+    <dimen name="dimen_7f060003">8.0dip</dimen>
+    <dimen name="dimen_7f060004">8.0dip</dimen>
+    <dimen name="dimen_7f060017">580.0dip</dimen>
+    <dimen name="dimen_7f06004b">16.0dip</dimen>
+    <dimen name="dimen_7f06004d">20.0dip</dimen>
+</resources>

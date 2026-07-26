@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="MT_Bin">220</integer>
+    <integer name="integer_7f0a0001">150</integer>
+    <integer name="integer_7f0a0002">33</integer>
+    <integer name="integer_7f0a0003">100</integer>
+    <integer name="integer_7f0a0004">127</integer>
+    <integer name="integer_7f0a0005">8</integer>
+    <integer name="integer_7f0a0006">150</integer>
+    <integer name="integer_7f0a0007">12451000</integer>
+    <integer name="integer_7f0a0008">999</integer>
+    <integer name="integer_7f0a0009">100</integer>
+</resources>

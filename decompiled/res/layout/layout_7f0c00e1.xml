@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView android:id="@id/id_7f09035c" android:layout_width="68.0dip" android:layout_height="68.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff222222" android:ellipsize="end" android:gravity="center" android:id="@id/id_7f09035b" android:layout_width="170.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxWidth="150.0dip" android:maxLines="2" />
+    <FrameLayout android:orientation="vertical" android:id="@id/id_7f090361" android:layout_width="244.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="#ff1a73e8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/id_7f090362" android:background="@drawable/drawable_7f070236" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff1a73e8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/id_7f090363" android:background="@drawable/drawable_7f070236" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="33.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:paddingStart="43.0dip">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/id_7f09035f" android:layout_width="160.0dip" android:layout_height="12.0dip" android:max="100" android:progress="1" android:progressDrawable="@drawable/drawable_7f07022e" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff161823" android:id="@id/id_7f09035e" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

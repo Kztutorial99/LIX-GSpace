@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" style="@style/style_7f12001b">
+        <Button android:id="@id/id_7f090065" android:background="@drawable/drawable_7f070083" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/style_7f12001c" />
+    </FrameLayout>
+</merge>

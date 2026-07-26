@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/id_7f09026a" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/id_7f09037c" android:layout_width="135.0dip" android:layout_height="75.0dip">
+        <ImageView android:id="@id/id_7f09037e" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+        <TextView android:id="@id/id_7f09037d" android:background="@drawable/drawable_7f07020d" android:layout_width="32.0dip" android:layout_height="14.0dip" android:layout_marginLeft="3.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="3.0dip" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/id_7f090379" android:layout_width="165.0dip" android:layout_height="75.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0sp" android:textColor="#ff3e3e3e" android:ellipsize="end" android:id="@id/id_7f090382" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="Pangle Ad" android:maxLines="1" />
+            <TextView android:textSize="11.0sp" android:textColor="#ffaeaeae" android:ellipsize="end" android:gravity="center" android:id="@id/id_7f090378" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:text="Pangle Ad" android:maxLines="2" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/id_7f090377" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="7.0dip" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/id_7f0903d6" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/drawable_7f070249" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

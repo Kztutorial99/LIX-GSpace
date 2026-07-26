@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/id_7f0902da" layout="@layout/layout_7f0c005a" />
+    <com.dualspace.multispace.ui.widget.LollipopFixedWebView android:id="@id/id_7f09043b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/id_7f0902da" android:layout_centerHorizontal="true" />
+    <com.dualspace.multispace.ui.widget.HintView android:id="@id/id_7f090145" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/id_7f0902da" />
+</RelativeLayout>

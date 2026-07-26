@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="MT_Bin">true</bool>
+    <bool name="bool_7f040001">false</bool>
+    <bool name="bool_7f040002">true</bool>
+    <bool name="bool_7f040003">true</bool>
+    <bool name="bool_7f040004">true</bool>
+    <bool name="bool_7f040005">false</bool>
+    <bool name="bool_7f040006">false</bool>
+</resources>

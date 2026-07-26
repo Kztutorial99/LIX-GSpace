@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_7f0c00c2" />
+    <com.bytedance.sdk.component.widget.SSWebView android:id="@id/id_7f090307" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/id_7f0903bc" android:layout_alignParentBottom="true" />
+    <include layout="@layout/layout_7f0c00c1" />
+</RelativeLayout>

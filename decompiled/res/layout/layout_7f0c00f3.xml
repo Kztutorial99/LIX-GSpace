@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pangle="http://schemas.android.com/apk/com.bytedance.sdk.component">
+    <FrameLayout android:id="@id/id_7f0903a9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.bytedance.sdk.component.widget.SSWebView android:id="@id/id_7f09039f" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="hardware" pangle:tt_delay_init="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/id_7f0903d0" android:background="#99161823" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/id_7f0903d1" android:layout_width="18.0dip" android:layout_height="16.0dip" android:layout_marginTop="45.0dip" android:src="@drawable/drawable_7f07029d" android:scaleType="fitXY" />
+        </LinearLayout>
+        <include android:id="@id/id_7f090309" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_7f0c00cf" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/id_7f0903e5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/id_7f0903e4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:layout_gravity="center" android:id="@id/id_7f0903f1" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/id_7f090343" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop">
+                    <ImageView android:id="@id/id_7f090342" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+                </FrameLayout>
+            </FrameLayout>
+            <include layout="@layout/layout_7f0c00ab" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.bytedance.sdk.openadsdk.core.widget.PlayableLoadingView android:id="@id/id_7f0903aa" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

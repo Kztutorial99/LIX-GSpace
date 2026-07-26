@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/id_7f090097" style="@style/style_7f1200f8">
+        <ImageView android:id="@id/id_7f090096" style="@style/style_7f1200f8" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/id_7f09008e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginHorizontal="4.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/id_7f09009d" android:layout_marginBottom="1.0dip" android:layout_toLeftOf="@id/id_7f09009c" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/id_7f09009c" android:layout_alignParentStart="true" style="@style/style_7f1201ba" />
+            <FrameLayout android:id="@id/id_7f09009c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="10.0sp" style="@style/style_7f1201b8" />
+            <TextView android:textSize="10.0sp" android:id="@id/id_7f090090" style="@style/style_7f1201b9" />
+        </LinearLayout>
+        <TextView android:textSize="10.0sp" android:id="@id/id_7f090092" style="@style/style_7f1201b9" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/color_7f050128" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/string_7f1100b2" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/id_7f09042e" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="5.0dip" />
+    <com.dualspace.multispace.ui.custom.PageIndicaor android:id="@id/id_7f09015c" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginBottom="8.0dip" app:attr_7f030132="2.0dip" app:attr_7f030133="1.0dip" app:attr_7f030134="1.0dip" app:attr_7f03020b="#ff1fc44b" app:attr_7f030228="#ff1fc44b" app:attr_7f03027e="#441fc44b" />
+</LinearLayout>

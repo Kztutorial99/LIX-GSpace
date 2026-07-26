@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id_7f0901f8" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/id_7f090220" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/id_7f0901da" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/drawable_7f070197" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/id_7f090202" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progressDrawable="@drawable/drawable_7f07019a" android:layout_alignParentBottom="true" style="progressBarStyleHorizontal" />
+    <ImageView android:id="@id/id_7f0901dd" android:background="@drawable/drawable_7f0701a4" android:padding="5.0dip" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/drawable_7f0701a6" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/id_7f0901de" android:background="@drawable/drawable_7f0701a4" android:padding="5.0dip" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/drawable_7f0701a3" android:layout_alignRight="@id/id_7f090220" android:layout_alignBottom="@id/id_7f090220" />
+    <com.mbridge.msdk.videocommon.view.MyImageView android:id="@id/id_7f0901dc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/id_7f090249" android:background="#4d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/id_7f0901db" android:visibility="gone" android:layout_width="53.0dip" android:layout_height="53.0dip" android:src="@drawable/drawable_7f070198" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_7f0901e2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <ProgressBar android:layout_width="60.0dip" android:layout_height="60.0dip" style="progressBarStyleLarge" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id_7f0903ad" android:background="@color/color_7f050121" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/id_7f0903ec" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/id_7f0903e9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ProgressBar android:id="@id/id_7f0903ea" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminateDrawable="@drawable/drawable_7f0702a3" android:indeterminateDuration="1200" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/id_7f0903ed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_7f07024d" android:scaleType="center" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/id_7f0903d8" android:layout="@layout/layout_7f0c00fd" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/id_7f0903e7" android:layout="@layout/layout_7f0c00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

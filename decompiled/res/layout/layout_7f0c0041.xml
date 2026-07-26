@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_7f090154" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" style="@style/style_7f1201c9">
+            <ImageView android:id="@id/id_7f0900b8" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900c3" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900ce" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900d2" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900d3" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900d4" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900d5" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900d6" style="@style/style_7f1201c8" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" style="@style/style_7f1201c9">
+            <ImageView android:id="@id/id_7f0900d7" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900b9" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900ba" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900bb" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900bc" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900bd" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900be" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900bf" style="@style/style_7f1201c8" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" style="@style/style_7f1201c9">
+            <ImageView android:id="@id/id_7f0900c0" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900c1" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900c2" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900c4" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900c5" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900c6" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900c7" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900c8" style="@style/style_7f1201c8" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" style="@style/style_7f1201c9">
+            <ImageView android:id="@id/id_7f0900c9" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900ca" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900cb" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900cc" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900cd" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900cf" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900d0" style="@style/style_7f1201c8" />
+            <ImageView android:id="@id/id_7f0900d1" style="@style/style_7f1201c8" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

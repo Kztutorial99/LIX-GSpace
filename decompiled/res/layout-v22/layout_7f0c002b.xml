@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView android:background="@drawable/drawable_7f07006a" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/id_7f0900f8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+        <ImageView android:id="@id/id_7f090047" android:layout_width="56.0dip" android:layout_height="56.0dip" />
+        <ImageView android:id="@id/id_7f090046" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:src="@drawable/drawable_7f07012d" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/id_7f090047" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/id_7f09004d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/id_7f090046" />
+        <TextView android:textSize="13.0sp" android:textColor="#d9ffffff" android:id="@id/id_7f090048" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="2" android:minLines="2" android:layout_below="@id/id_7f09004d" android:layout_alignStart="@id/id_7f090046" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/id_7f090049" android:background="@drawable/drawable_7f0701e5" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/id_7f090048" android:paddingHorizontal="3.0dip" />
+    </RelativeLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

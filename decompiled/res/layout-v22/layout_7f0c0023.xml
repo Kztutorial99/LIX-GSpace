@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id_7f09028a" android:background="@color/color_7f05008e" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_7f0901a4" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:layout_above="@id/id_7f09040b" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/id_7f090178" android:background="@drawable/drawable_7f070144" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginBottom="20.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/color_7f050128" android:gravity="center" android:id="@id/id_7f090422" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_7f1100d5" />
+    </LinearLayout>
+    <TextView android:id="@id/id_7f09040b" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/id_7f0901aa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_marginLeft="38.0dip" android:layout_marginRight="38.0dip" android:layout_marginBottom="70.0dip" android:max="100" android:progressDrawable="@drawable/drawable_7f0701f8" android:layout_alignParentBottom="true" android:layout_marginHorizontal="38.0dip" style="progressBarStyleHorizontal" />
+</RelativeLayout>

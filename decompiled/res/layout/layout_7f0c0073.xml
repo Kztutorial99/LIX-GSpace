@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/id_7f0901bc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_7f0901e8" android:background="@drawable/drawable_7f0701a7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.mbridge.msdk.video.dynview.ordercamp.AblGridView android:gravity="center" android:id="@id/id_7f0901fb" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchMode="spacingWidthUniform" android:numColumns="auto_fit" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <RelativeLayout android:id="@id/id_7f0901f5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <com.mbridge.msdk.dycreator.baseview.cusview.MBridgeDyImageView android:id="@id/id_7f0901d8" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/drawable_7f0701b2" android:layout_centerVertical="true" />
+        <com.mbridge.msdk.widget.FeedBackButton android:textSize="11.0sp" android:textColor="@color/color_7f0500d5" android:gravity="center" android:id="@id/id_7f0901f6" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/string_7f1100df" android:layout_alignTop="@id/id_7f0901d8" android:layout_toEndOf="@id/id_7f0901d8" />
+        <com.mbridge.msdk.dycreator.baseview.cusview.MBridgeDyImageView android:id="@id/id_7f0901fc" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/drawable_7f0701a9" android:layout_alignParentRight="true" android:contentDescription="closeButton" />
+        <com.mbridge.msdk.dycreator.baseview.cusview.MBridgeTextView android:textSize="12.0sp" android:textColor="@color/color_7f0500c8" android:gravity="center" android:id="@id/id_7f090232" android:background="@drawable/drawable_7f0701d6" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/string_7f1100ee" android:layout_alignTop="@id/id_7f0901d8" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_toEndOf="@id/id_7f0901f6" />
+    </RelativeLayout>
+    <ImageView android:id="@id/id_7f0901d9" android:layout_width="50.0dip" android:layout_height="18.0dip" android:layout_marginLeft="13.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/drawable_7f0701ad" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" />
+</RelativeLayout>

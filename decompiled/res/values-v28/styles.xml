@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f120063" parent="@style/style_7f120084" />
+    <style name="style_7f12006a" parent="@style/style_7f120085" />
+    <style name="style_7f1201d6" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/style_7f1201d5</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+    </style>
+    <style name="style_7f120084" parent="@style/style_7f120081">
+        <item name="attr_7f0300d4">?android:dialogCornerRadius</item>
+    </style>
+    <style name="style_7f120085" parent="@style/style_7f120082">
+        <item name="attr_7f0300d4">?android:dialogCornerRadius</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pangle="http://schemas.android.com/apk/com.bytedance.sdk.component">
+    <FrameLayout android:id="@id/id_7f090317" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/id_7f0903f1" />
+    <RelativeLayout android:gravity="center" android:id="@id/id_7f0903f0" android:layout_width="280.0dip" android:layout_height="70.0dip" android:layout_marginBottom="33.0dip" android:layout_above="@id/id_7f0903f1" android:layout_centerHorizontal="true">
+        <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView android:id="@id/id_7f09039c" android:background="@android:color/transparent" android:layout_width="69.0dip" android:layout_height="69.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/id_7f09039c" android:layout_toEndOf="@id/id_7f09039c">
+            <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/id_7f090396" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginLeft="14.0dip" android:maxWidth="176.0dip" android:singleLine="true" android:layout_marginStart="14.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="14.0dip">
+                <com.bytedance.sdk.openadsdk.core.widget.TTRatingBar2 android:layout_gravity="center" android:id="@id/id_7f090393" android:layout_width="wrap_content" android:layout_height="14.0dip" />
+                <TextView android:textSize="13.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/id_7f09031a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="72.0dip" android:text="@string/string_7f110149" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/id_7f0903f1" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="211.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/id_7f090316" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/id_7f0903f1" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/color_7f050127" android:ellipsize="end" android:gravity="center" android:id="@id/id_7f090399" android:background="@drawable/drawable_7f07025d" android:layout_width="260.0dip" android:layout_height="36.0dip" android:layout_marginTop="70.0dip" android:text="@string/string_7f1101bb" android:lines="1" android:layout_below="@id/id_7f0903f1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <com.bytedance.sdk.component.widget.SSWebView android:id="@id/id_7f09039e" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="hardware" pangle:tt_delay_init="true" />
+    <com.bytedance.sdk.component.widget.SSWebView android:id="@id/id_7f090308" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" pangle:tt_delay_init="true" />
+</RelativeLayout>

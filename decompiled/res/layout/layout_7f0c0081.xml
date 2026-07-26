@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id_7f090216" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0sp" android:textColor="@color/color_7f0500c8" android:gravity="center_horizontal" android:id="@id/id_7f090235" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_7f1100eb" android:layout_centerHorizontal="true" />
+    <TextView android:gravity="center_horizontal" android:id="@id/id_7f090234" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/id_7f0901df" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="45.0dip" android:layout_marginRight="35.0dip" android:src="@drawable/drawable_7f0701d1" android:layout_toLeftOf="@id/id_7f090234" android:contentDescription="closeButton" />
+    <ImageView android:id="@id/id_7f0901e0" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="35.0dip" android:layout_marginTop="45.0dip" android:src="@drawable/drawable_7f0701d2" android:layout_toRightOf="@id/id_7f090234" />
+</RelativeLayout>

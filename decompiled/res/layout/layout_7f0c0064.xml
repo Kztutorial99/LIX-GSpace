@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="360.0dip" android:minHeight="120.0dip">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/id_7f09009b" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.333" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_7f060086" android:layout_marginTop="@dimen/dimen_7f0600bd" android:layout_marginRight="@dimen/dimen_7f060086" android:layout_marginBottom="@dimen/dimen_7f0600bd" android:layout_weight="0.5">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView style="@style/style_7f1201b8" />
+                    <TextView android:id="@id/id_7f09009d" style="@style/style_7f1201ba" />
+                </LinearLayout>
+                <TextView android:id="@id/id_7f090090" style="@style/style_7f1201b9" />
+                <TextView android:id="@id/id_7f090092" style="@style/style_7f1201b9" />
+            </LinearLayout>
+            <Button android:textSize="15.0sp" android:layout_gravity="center_vertical" android:id="@id/id_7f090093" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_7f060086" android:singleLine="false" style="@style/style_7f1201b1" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/id_7f09009c" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:minWidth="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="2.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

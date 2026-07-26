@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/id_7f09036d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/id_7f090369" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/id_7f09036b" android:layout="@layout/layout_7f0c00e5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

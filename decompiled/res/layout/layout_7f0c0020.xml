@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dualspace.multispace.ui.custom.AnimFrameLayout android:id="@id/id_7f09013c" android:background="@color/color_7f050064" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/id_7f090431" android:layout="@layout/layout_7f0c0105" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="54.0dip" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/id_7f090432" android:layout="@layout/layout_7f0c0106" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="60.0dip" />
+    <ViewStub android:id="@id/id_7f090430" android:layout="@layout/layout_7f0c0103" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/id_7f090179" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/id_7f09016c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/drawable_7f07012e" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_7f090190" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_7f07015d" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_7f050069" android:layout_gravity="center" android:id="@id/id_7f090417" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/string_7f1100d8" />
+    </LinearLayout>
+</com.dualspace.multispace.ui.custom.AnimFrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f12004f" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="style_7f120059" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="style_7f120063" parent="@style/style_7f12007f" />
+    <style name="style_7f12006a" parent="@style/style_7f120080" />
+    <style name="style_7f120095" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="style_7f12009b" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="style_7f12009d" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/style_7f120122</item>
+    </style>
+    <style name="style_7f1200a7" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="style_7f1200bc" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="style_7f1200bd" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="style_7f1200c3" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="style_7f1200c4" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="style_7f12007f" parent="@style/style_7f12007d">
+        <item name="attr_7f030003">?android:actionBarItemBackground</item>
+        <item name="attr_7f030010">?android:actionMenuTextAppearance</item>
+        <item name="attr_7f030011">?android:actionMenuTextColor</item>
+        <item name="attr_7f03001f">?android:actionOverflowButtonStyle</item>
+        <item name="attr_7f0300bd">@drawable/drawable_7f07001c</item>
+        <item name="attr_7f0301f3">?android:ratingBarStyleIndicator</item>
+        <item name="attr_7f0301f4">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="style_7f120080" parent="@style/style_7f12007e">
+        <item name="attr_7f030003">?android:actionBarItemBackground</item>
+        <item name="attr_7f030010">?android:actionMenuTextAppearance</item>
+        <item name="attr_7f030011">?android:actionMenuTextColor</item>
+        <item name="attr_7f03001f">?android:actionOverflowButtonStyle</item>
+        <item name="attr_7f0300bd">@drawable/drawable_7f07001c</item>
+        <item name="attr_7f0301f3">?android:ratingBarStyleIndicator</item>
+        <item name="attr_7f0301f4">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

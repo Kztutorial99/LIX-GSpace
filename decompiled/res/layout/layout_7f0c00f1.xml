@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/id_7f0903d7" android:background="@drawable/drawable_7f07023f" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="24.0dip" android:contentDescription="@string/string_7f110139" android:layout_marginEnd="24.0dip">
+        <ImageView android:id="@id/id_7f0903d6" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/drawable_7f0702a2" android:contentDescription="@string/string_7f110139" />
+    </RelativeLayout>
+    <TextView android:gravity="center" android:layout_gravity="start|bottom|center" android:id="@id/id_7f0902e6" android:background="@drawable/drawable_7f07020d" android:layout_width="32.0dip" android:layout_height="14.0dip" android:layout_marginLeft="16.0dip" android:layout_marginBottom="100.0dip" />
+    <com.bytedance.sdk.openadsdk.core.widget.PlayableLoadingView android:id="@id/id_7f0903aa" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.bytedance.sdk.openadsdk.component.reward.top.TopProxyLayout android:id="@id/id_7f0903cb" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

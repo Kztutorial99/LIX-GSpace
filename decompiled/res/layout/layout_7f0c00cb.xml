@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/id_7f0903b7" android:background="@drawable/drawable_7f07028c" android:layout_width="247.0dip" android:layout_height="56.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/id_7f0903b9" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/drawable_7f07028f" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_alignParentStart="true" />
+        <com.bytedance.sdk.component.adexpress.widget.FlowLightView android:id="@id/id_7f0903ae" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:layout_toStartOf="@id/id_7f0903b8" android:layout_toEndOf="@id/id_7f0903b9" />
+        <ImageView android:id="@id/id_7f0903b8" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/drawable_7f07028d" android:layout_centerVertical="true" android:layout_marginStart="2.0dip" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/id_7f0903ba" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:shadowColor="#99000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="4.0" android:layout_below="@id/id_7f0903b7" android:layout_centerHorizontal="true" />
+</RelativeLayout>

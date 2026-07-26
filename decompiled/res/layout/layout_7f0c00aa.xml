@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_7f0903a1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pangle="http://schemas.android.com/apk/com.bytedance.sdk.component">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/id_7f0903a0" android:background="@color/color_7f050127" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView android:id="@id/id_7f09039d" android:background="@android:color/transparent" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/id_7f090397" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="16.0dip" android:maxWidth="180.0dip" android:text="pangle" android:singleLine="true" />
+            <com.bytedance.sdk.openadsdk.core.widget.TTRatingBar2 android:layout_gravity="center" android:id="@id/id_7f090394" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="12.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff93959a" android:ellipsize="end" android:id="@id/id_7f090319" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:text="@string/string_7f11014a" android:singleLine="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_7f050127" android:gravity="center" android:id="@id/id_7f09039a" android:background="@drawable/drawable_7f07025c" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_margin="20.0dip" android:text="@string/string_7f1101bb" />
+            <TextView android:gravity="center" android:layout_gravity="start|bottom|center" android:id="@id/id_7f0902e3" android:background="@drawable/drawable_7f07020d" android:layout_width="32.0dip" android:layout_height="14.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="16.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/id_7f0903a2" android:background="@color/color_7f0500f2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/id_7f0903a3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.bytedance.sdk.component.widget.SSWebView android:id="@id/id_7f0903a4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" pangle:tt_delay_init="true" />
+    </FrameLayout>
+</FrameLayout>

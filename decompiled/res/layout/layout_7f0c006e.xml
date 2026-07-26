@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/id_7f0901c7" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/id_7f0901c5" android:background="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/id_7f0901c6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/id_7f0901c3" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/drawable_7f07018f" android:scaleType="fitXY" android:contentDescription="closeButton" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/id_7f0901c4" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" style="progressBarStyleLarge" />
+    <FrameLayout android:id="@id/id_7f0901c1" android:background="@drawable/drawable_7f070196" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/id_7f0901c2" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/id_7f0901cd" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="Install" android:lineSpacingExtra="10.0dip" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

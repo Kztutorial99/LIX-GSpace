@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_7f090260" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/dimen_7f0600ac" android:layout_height="@dimen/dimen_7f0600ab" layout="@layout/layout_7f0c0097" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_7f0600ac">
+        <LinearLayout android:orientation="horizontal" android:id="@id/id_7f090262" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen_7f0600ab">
+            <FrameLayout android:id="@id/id_7f090261" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" />
+            <FrameLayout android:id="@id/id_7f090285" android:paddingTop="@dimen/dimen_7f0600b5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+                <ViewStub android:layout_gravity="end|center|top" android:id="@id/id_7f0902d5" android:visibility="gone" android:layout="@layout/layout_7f0c0099" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ViewStub android:layout_gravity="end|center|top" android:id="@id/id_7f0900ef" android:visibility="gone" android:layout="@layout/layout_7f0c0098" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="@style/style_7f12012b" android:layout_gravity="end|bottom|center" android:id="@id/id_7f09015d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/id_7f09003b" android:background="#29000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/id_7f090044" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="-8.0dip" />
+    </LinearLayout>
+</FrameLayout>

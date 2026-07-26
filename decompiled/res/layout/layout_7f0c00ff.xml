@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id_7f0903da" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="34.0px" android:textColor="@color/color_7f050127" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/id_7f0903d5" android:background="@drawable/drawable_7f070201" android:padding="2.0dip" android:visibility="gone" android:layout_width="580.0px" android:layout_height="98.0px" android:layout_marginTop="20.0dip" android:text="@string/string_7f1101bb" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="34.0px" android:textColor="@color/color_7f050127" android:ellipsize="end" android:id="@id/id_7f0903e0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0px" android:text="Click to replay" android:maxLines="1" android:layout_below="@id/id_7f0903d5" android:layout_centerHorizontal="true" />
+</RelativeLayout>

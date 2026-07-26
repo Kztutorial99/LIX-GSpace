@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MT_Bin" parent="@style/style_7f12002c" />
+    <style name="style_7f120001" parent="@style/style_7f12002d" />
+    <style name="style_7f120002" parent="@style/style_7f12002e" />
+    <style name="style_7f120003" parent="@style/style_7f12002f" />
+    <style name="style_7f120004" parent="@style/style_7f120030" />
+    <style name="AppBaseTheme" parent="@style/style_7f120146">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="attr_7f03009f">@android:color/black</item>
+        <item name="attr_7f0300a6">@android:color/black</item>
+        <item name="attr_7f0300a7">@android:color/black</item>
+    </style>
+    <style name="style_7f120006">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dimen_7f06005b</item>
+        <item name="android:layout_height">@dimen/dimen_7f06005a</item>
+    </style>
+    <style name="style_7f120007" parent="@style/style_7f120006">
+        <item name="android:src">@drawable/drawable_7f07006b</item>
+        <item name="android:contentDescription">@string/string_7f110028</item>
+    </style>
+    <style name="style_7f120008" parent="@style/style_7f120006">
+        <item name="android:src">@drawable/drawable_7f07006e</item>
+        <item name="android:contentDescription">@string/string_7f11002c</item>
+    </style>
+    <style name="style_7f120009" parent="@style/style_7f120006">
+        <item name="android:src">@drawable/drawable_7f07006f</item>
+        <item name="android:contentDescription">@string/string_7f11002f</item>
+    </style>
+    <style name="style_7f12000a" parent="@style/style_7f120006">
+        <item name="android:src">@drawable/drawable_7f070070</item>
+        <item name="android:contentDescription">@string/string_7f110030</item>
+    </style>
+    <style name="style_7f12000b" parent="@style/style_7f120006">
+        <item name="android:src">@drawable/drawable_7f070071</item>
+        <item name="android:contentDescription">@string/string_7f110033</item>
+    </style>
+    <style name="style_7f12000c" parent="@style/style_7f120006">
+        <item name="android:src">@drawable/drawable_7f070075</item>
+        <item name="android:contentDescription">@string/string_7f110037</item>
+    </style>
+    <style name="style_7f12000d" parent="@style/style_7f120006">
+        <item name="android:src">@drawable/drawable_7f070078</item>
+        <item name="android:contentDescription">@string/string_7f11003f</item>
+    </style>
+    <style name="style_7f12000e" />
+    <style name="style_7f12000f" parent="@style/style_7f12000e">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_7f060055</item>
+        <item name="android:layout_marginRight">@dimen/dimen_7f060055</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="style_7f120010" parent="@style/style_7f12000f">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/dimen_7f060065</item>
+        <item name="android:paddingTop">@dimen/dimen_7f060066</item>
+        <item name="android:paddingRight">@dimen/dimen_7f060065</item>
+        <item name="android:paddingBottom">@dimen/dimen_7f060066</item>
+        <item name="android:layout_width">@dimen/dimen_7f060067</item>
+        <item name="android:layout_height">@dimen/dimen_7f060063</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_7f060064</item>
+        <item name="android:layout_marginRight">@dimen/dimen_7f060064</item>
+    </style>
+    <style name="style_7f120011" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070081</item>
+        <item name="android:contentDescription">@string/string_7f110053</item>
+    </style>
+    <style name="style_7f120012" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070094</item>
+        <item name="android:contentDescription">@string/string_7f110025</item>
+    </style>
+    <style name="style_7f120013" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070084</item>
+        <item name="android:contentDescription">@string/string_7f110029</item>
+    </style>
+    <style name="style_7f120014" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070087</item>
+        <item name="android:contentDescription">@string/string_7f11002d</item>
+    </style>
+    <style name="style_7f120015" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070088</item>
+        <item name="android:contentDescription">@string/string_7f11002e</item>
+    </style>
+    <style name="style_7f120016" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070093</item>
+        <item name="android:contentDescription">@string/string_7f110031</item>
+    </style>
+    <style name="style_7f120017" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f07008d</item>
+        <item name="android:contentDescription">@string/string_7f110035</item>
+    </style>
+    <style name="style_7f120018" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070090</item>
+        <item name="android:contentDescription">@string/string_7f110039</item>
+    </style>
+    <style name="style_7f120019" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070091</item>
+        <item name="android:contentDescription">@string/string_7f11003b</item>
+    </style>
+    <style name="style_7f12001a" parent="@style/style_7f120010">
+        <item name="android:src">@drawable/drawable_7f070096</item>
+        <item name="android:contentDescription">@string/string_7f11003f</item>
+    </style>
+    <style name="style_7f12001b" parent="@style/style_7f12000f">
+        <item name="android:layout_width">@dimen/dimen_7f060058</item>
+        <item name="android:layout_height">@dimen/dimen_7f060058</item>
+    </style>
+    <style name="style_7f12001c" parent="@style/style_7f12001b">
+        <item name="android:textAppearance">@style/style_7f120021</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingBottom">@dimen/dimen_7f060057</item>
+        <item name="android:foreground">@drawable/drawable_7f070083</item>
+        <item name="android:insetBottom">0.0dip</item>
+        <item name="attr_7f03002b">@android:color/white</item>
+    </style>
+    <style name="style_7f12001d" parent="@style/style_7f12001b">
+        <item name="android:padding">@dimen/dimen_7f060056</item>
+        <item name="android:src">@drawable/drawable_7f070086</item>
+        <item name="android:contentDescription">@string/string_7f11002c</item>
+    </style>
+    <style name="style_7f12001e" parent="@style/style_7f12001b">
+        <item name="android:padding">@dimen/dimen_7f060056</item>
+        <item name="android:src">@drawable/drawable_7f07008a</item>
+        <item name="android:contentDescription">@string/string_7f110030</item>
+    </style>
+    <style name="style_7f12001f" parent="@style/style_7f12001b">
+        <item name="android:padding">@dimen/dimen_7f060056</item>
+        <item name="android:src">@drawable/drawable_7f07008b</item>
+        <item name="android:contentDescription">@string/string_7f110033</item>
+    </style>
+    <style name="style_7f120020" parent="@style/style_7f12001b">
+        <item name="android:textAppearance">@style/style_7f120021</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingBottom">@dimen/dimen_7f060057</item>
+        <item name="android:foreground">@drawable/drawable_7f07008f</item>
+        <item name="android:insetBottom">0.0dip</item>
+        <item name="attr_7f03002b">@android:color/white</item>
+    </style>
+    <style name="style_7f120021" parent="@style/style_7f12000e">
+        <item name="android:textSize">@dimen/dimen_7f060059</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_7f050023</item>
+    </style>
+    <style name="style_7f120022" parent="@style/style_7f12000e">
+        <item name="android:layout_height">@dimen/dimen_7f060070</item>
+        <item name="attr_7f03002c">id_7f0900ae</item>
+        <item name="attr_7f03002d">@dimen/dimen_7f06006d</item>
+        <item name="attr_7f03003b">@dimen/dimen_7f06006e</item>
+        <item name="attr_7f03003d">@dimen/dimen_7f06006f</item>
+        <item name="attr_7f03004a">@dimen/dimen_7f060072</item>
+    </style>
+    <style name="style_7f120023" parent="@style/style_7f12000e">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="style_7f120024" parent="@style/style_7f120023">
+        <item name="android:textColor">@color/color_7f050024</item>
+        <item name="android:text">@string/string_7f11003e</item>
+    </style>
+    <style name="style_7f120025" parent="@style/style_7f120023">
+        <item name="android:textColor">@color/color_7f050023</item>
+        <item name="android:text">@string/string_7f11003e</item>
+    </style>
+    <style name="style_7f120026" parent="@style/style_7f120023">
+        <item name="android:textColor">@color/color_7f050024</item>
+        <item name="android:text">·</item>
+    </style>
+    <style name="AppTheme" parent="@style/style_7f120146">
+        <item name="attr_7f03009f">@android:color/transparent</item>
+        <item name="attr_7f0300a6">@android:color/transparent</item>
+        <item name="attr_7f0300a7">@android:color/transparent</item>
+    </style>
+    <style name="style_7f120028" parent="@style/style_7f120146">
+        <item name="attr_7f03009f">@color/color_7f050059</item>
+        <item name="attr_7f0300a6">@color/color_7f050059</item>
+        <item name="attr_7f0300a7">@color/color_7f050059</item>
+    </style>
+    <style name="style_7f120029" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/color_7f0500f1</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="style_7f12002a" parent="@style/style_7f120146">
+        <item name="attr_7f03009f">@android:color/black</item>
+        <item name="attr_7f0300a6">@android:color/black</item>
+        <item name="attr_7f0300a7">@android:color/black</item>
+    </style>
+    <style name="style_7f12002b" parent="@style/AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="attr_7f0300a7">@color/color_7f05006a</item>
+    </style>
+    <style name="style_7f12002c" parent="@android:style/Widget">
+        <item name="android:layout">@layout/layout_7f0c0009</item>
+        <item name="attr_7f03007c">@dimen/dimen_7f060011</item>
+        <item name="attr_7f03018c">@layout/layout_7f0c009c</item>
+        <item name="attr_7f03018d">@layout/layout_7f0c001a</item>
+        <item name="attr_7f0301c1">@layout/layout_7f0c009d</item>
+        <item name="attr_7f030216">@layout/layout_7f0c009e</item>
+    </style>
+    <style name="style_7f12002d" parent="@style/style_7f12002c" />
+    <style name="style_7f12002e" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f010003</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f010004</item>
+    </style>
+    <style name="style_7f12002f" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f010002</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f010005</item>
+    </style>
+    <style name="style_7f120030" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f01000a</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f01000b</item>
+    </style>
+    <style name="style_7f120031" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/style_7f120114</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="style_7f120032" parent="@android:style/Widget">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">?attr_7f0300d5</item>
+        <item name="android:paddingTop">@dimen/dimen_7f060025</item>
+        <item name="android:paddingRight">?attr_7f0300d5</item>
+    </style>
+    <style name="style_7f120033" parent="@android:style/TextAppearance.Material" />
+    <style name="style_7f120034" parent="@android:style/TextAppearance.Material.Body1" />
+    <style name="style_7f120035" parent="@android:style/TextAppearance.Material.Body2" />
+    <style name="style_7f120036" parent="@android:style/TextAppearance.Material.Button" />
+    <style name="style_7f120037" parent="@android:style/TextAppearance.Material.Caption" />
+    <style name="style_7f120038" parent="@android:style/TextAppearance.Material.Display1" />
+    <style name="style_7f120039" parent="@android:style/TextAppearance.Material.Display2" />
+    <style name="style_7f12003a" parent="@android:style/TextAppearance.Material.Display3" />
+    <style name="style_7f12003b" parent="@android:style/TextAppearance.Material.Display4" />
+    <style name="style_7f12003c" parent="@android:style/TextAppearance.Material.Headline" />
+    <style name="style_7f12003d" parent="@android:style/TextAppearance.Material.Inverse" />
+    <style name="style_7f12003e" parent="@android:style/TextAppearance.Material.Large" />
+    <style name="style_7f12003f" parent="@android:style/TextAppearance.Material.Large.Inverse" />
+    <style name="style_7f120040" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
+    <style name="style_7f120041" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small" />
+    <style name="style_7f120042" parent="@android:style/TextAppearance.Material.Medium" />
+    <style name="style_7f120043" parent="@android:style/TextAppearance.Material.Medium.Inverse" />
+    <style name="style_7f120044" parent="@android:style/TextAppearance.Material.Menu" />
+    <style name="style_7f120045">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="style_7f120046" parent="@android:style/TextAppearance.Material.SearchResult.Subtitle" />
+    <style name="style_7f120047" parent="@android:style/TextAppearance.Material.SearchResult.Title" />
+    <style name="style_7f120048" parent="@android:style/TextAppearance.Material.Small" />
+    <style name="style_7f120049" parent="@android:style/TextAppearance.Material.Small.Inverse" />
+    <style name="style_7f12004a" parent="@android:style/TextAppearance.Material.Subhead" />
+    <style name="style_7f12004b" parent="@style/style_7f12004a">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="style_7f12004c" parent="@android:style/TextAppearance.Material.Title" />
+    <style name="style_7f12004d" parent="@style/style_7f12004c">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="style_7f12004e" parent="@style/style_7f120033">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="style_7f12004f" parent="@style/style_7f1200fd">
+        <item name="android:textColor">?attr_7f030011</item>
+        <item name="attr_7f03023a">@bool/bool_7f040002</item>
+    </style>
+    <style name="style_7f120050" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="style_7f120051" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse" />
+    <style name="style_7f120052" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="style_7f120053" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title.Inverse" />
+    <style name="style_7f120054" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle" />
+    <style name="style_7f120055" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Title" />
+    <style name="style_7f120056" parent="@android:style/TextAppearance.Material.Widget.Button" />
+    <style name="style_7f120057" parent="@style/style_7f120056">
+        <item name="android:textColor">@color/color_7f050003</item>
+    </style>
+    <style name="style_7f120058" parent="@style/style_7f120056">
+        <item name="android:textColor">@color/color_7f050004</item>
+    </style>
+    <style name="style_7f120059" parent="@style/style_7f1200fd">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="style_7f12005a" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="style_7f12005b" parent="@style/style_7f1200fa">
+        <item name="android:textSize">@dimen/dimen_7f060047</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="style_7f12005c" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
+    <style name="style_7f12005d" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small" />
+    <style name="style_7f12005e" parent="@android:style/TextAppearance.Material.Button" />
+    <style name="style_7f12005f" parent="@android:style/TextAppearance.Material.Widget.TextView.SpinnerItem" />
+    <style name="style_7f120060" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="style_7f120061" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="style_7f120062" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="style_7f120063" parent="@style/style_7f120078" />
+    <style name="style_7f120064">
+        <item name="android:listViewStyle">@style/style_7f12018d</item>
+        <item name="android:windowAnimationStyle">@style/style_7f120003</item>
+        <item name="android:itemTextAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="style_7f120065" parent="@style/style_7f120079" />
+    <style name="style_7f120066" parent="@style/style_7f120065">
+        <item name="android:windowMinWidthMajor">@dimen/dimen_7f060022</item>
+        <item name="android:windowMinWidthMinor">@dimen/dimen_7f060023</item>
+    </style>
+    <style name="style_7f120067" parent="@style/style_7f120065">
+        <item name="attr_7f030292">@dimen/dimen_7f06001c</item>
+        <item name="attr_7f030293">@dimen/dimen_7f06001d</item>
+        <item name="attr_7f030294">@dimen/dimen_7f06001e</item>
+        <item name="attr_7f030295">@dimen/dimen_7f06001f</item>
+    </style>
+    <style name="style_7f120068" parent="@style/style_7f120065">
+        <item name="android:windowMinWidthMajor">@dimen/dimen_7f060022</item>
+        <item name="android:windowMinWidthMinor">@dimen/dimen_7f060023</item>
+    </style>
+    <style name="style_7f120069" parent="@style/style_7f120132" />
+    <style name="style_7f12006a" parent="@style/style_7f12007a" />
+    <style name="style_7f12006b" parent="@style/style_7f12006a">
+        <item name="attr_7f030004">@style/style_7f120153</item>
+        <item name="attr_7f03000b">@style/style_7f12014e</item>
+        <item name="attr_7f03000c">@null</item>
+        <item name="attr_7f0300a6">@color/color_7f0500da</item>
+        <item name="attr_7f0300a7">@color/color_7f0500d8</item>
+        <item name="attr_7f030188">@drawable/drawable_7f07003e</item>
+    </style>
+    <style name="style_7f12006c" parent="@style/style_7f12007b" />
+    <style name="style_7f12006d" parent="@style/style_7f12006c">
+        <item name="android:windowMinWidthMajor">@dimen/dimen_7f060022</item>
+        <item name="android:windowMinWidthMinor">@dimen/dimen_7f060023</item>
+    </style>
+    <style name="style_7f12006e" parent="@style/style_7f12006c">
+        <item name="attr_7f030292">@dimen/dimen_7f06001c</item>
+        <item name="attr_7f030293">@dimen/dimen_7f06001d</item>
+        <item name="attr_7f030294">@dimen/dimen_7f06001e</item>
+        <item name="attr_7f030295">@dimen/dimen_7f06001f</item>
+    </style>
+    <style name="style_7f12006f" parent="@style/style_7f12006c">
+        <item name="android:windowMinWidthMajor">@dimen/dimen_7f060022</item>
+        <item name="android:windowMinWidthMinor">@dimen/dimen_7f060023</item>
+    </style>
+    <style name="style_7f120070" parent="@style/style_7f120140" />
+    <style name="style_7f120071" parent="@style/style_7f1200d8" />
+    <style name="style_7f120072" parent="@style/style_7f120071">
+        <item name="attr_7f0300a4">?android:textColorPrimary</item>
+        <item name="attr_7f030209">@style/style_7f120197</item>
+    </style>
+    <style name="style_7f120073" parent="@style/style_7f1200d9">
+        <item name="android:colorForeground">@color/color_7f050084</item>
+        <item name="android:colorBackground">@color/color_7f050039</item>
+        <item name="android:textColorPrimary">@color/color_7f05000c</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/color_7f05000a</item>
+        <item name="android:textColorSecondary">@color/color_7f050012</item>
+        <item name="android:textColorPrimaryInverse">@color/color_7f05000d</item>
+        <item name="android:textColorSecondaryInverse">@color/color_7f050013</item>
+        <item name="android:textColorHintInverse">@color/color_7f050009</item>
+        <item name="android:windowBackground">@color/color_7f050039</item>
+        <item name="android:textColorHighlight">@color/color_7f050087</item>
+        <item name="android:textColorHint">@color/color_7f050008</item>
+        <item name="android:colorForegroundInverse">@color/color_7f050085</item>
+        <item name="android:textColorTertiary">@color/color_7f050012</item>
+        <item name="android:textColorTertiaryInverse">@color/color_7f050013</item>
+        <item name="android:colorBackgroundCacheHint">@color/color_7f050001</item>
+        <item name="attr_7f0300a0">@color/color_7f050037</item>
+        <item name="attr_7f0300a1">@color/color_7f05004b</item>
+        <item name="attr_7f0300a3">@color/color_7f0500e1</item>
+        <item name="attr_7f0300a4">?android:textColorSecondary</item>
+        <item name="attr_7f0300a9">@color/color_7f0500ea</item>
+        <item name="attr_7f030136">false</item>
+    </style>
+    <style name="style_7f120074" parent="@style/style_7f120073">
+        <item name="attr_7f0300a4">?android:textColorPrimary</item>
+        <item name="attr_7f030209">@style/style_7f120197</item>
+    </style>
+    <style name="style_7f120075" parent="@style/style_7f12007c" />
+    <style name="style_7f120076" parent="@style/style_7f120075">
+        <item name="android:windowMinWidthMajor">@dimen/dimen_7f060022</item>
+        <item name="android:windowMinWidthMinor">@dimen/dimen_7f060023</item>
+    </style>
+    <style name="style_7f120077" parent="@style/style_7f1200da">
+        <item name="android:colorForeground">@color/color_7f050085</item>
+        <item name="android:colorBackground">@color/color_7f05003a</item>
+        <item name="android:textColorPrimary">@color/color_7f05000d</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/color_7f05000b</item>
+        <item name="android:textColorSecondary">@color/color_7f050013</item>
+        <item name="android:textColorPrimaryInverse">@color/color_7f05000c</item>
+        <item name="android:textColorSecondaryInverse">@color/color_7f050012</item>
+        <item name="android:textColorHintInverse">@color/color_7f050008</item>
+        <item name="android:windowBackground">@color/color_7f05003a</item>
+        <item name="android:textColorHighlight">@color/color_7f050088</item>
+        <item name="android:textColorHint">@color/color_7f050009</item>
+        <item name="android:colorForegroundInverse">@color/color_7f050084</item>
+        <item name="android:textColorTertiary">@color/color_7f050013</item>
+        <item name="android:textColorTertiaryInverse">@color/color_7f050012</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/color_7f05000a</item>
+        <item name="android:colorBackgroundCacheHint">@color/color_7f050002</item>
+        <item name="attr_7f0300a0">@color/color_7f050038</item>
+        <item name="attr_7f0300a1">@color/color_7f05004c</item>
+        <item name="attr_7f0300a3">@color/color_7f0500e2</item>
+        <item name="attr_7f0300a4">?android:textColorSecondary</item>
+        <item name="attr_7f0300a9">@color/color_7f0500eb</item>
+        <item name="attr_7f030136">true</item>
+    </style>
+    <style name="style_7f120078" parent="@style/style_7f120086">
+        <item name="android:colorControlNormal">?attr_7f0300a4</item>
+        <item name="android:colorControlActivated">?attr_7f0300a2</item>
+        <item name="android:colorButtonNormal">?attr_7f0300a1</item>
+        <item name="android:colorControlHighlight">?attr_7f0300a3</item>
+        <item name="android:colorPrimary">?attr_7f0300a6</item>
+        <item name="android:colorPrimaryDark">?attr_7f0300a7</item>
+        <item name="android:colorAccent">?attr_7f03009f</item>
+        <item name="attr_7f030002">?android:actionBarDivider</item>
+        <item name="attr_7f030003">@drawable/drawable_7f07000b</item>
+        <item name="attr_7f030005">?android:actionBarSize</item>
+        <item name="attr_7f03000d">?android:actionButtonStyle</item>
+        <item name="attr_7f030012">?android:actionModeBackground</item>
+        <item name="attr_7f030014">?android:actionModeCloseDrawable</item>
+        <item name="attr_7f030073">?android:borderlessButtonStyle</item>
+        <item name="attr_7f03007f">?android:buttonStyle</item>
+        <item name="attr_7f030080">?android:buttonStyleSmall</item>
+        <item name="attr_7f03008f">?android:checkboxStyle</item>
+        <item name="attr_7f030090">?android:checkedTextViewStyle</item>
+        <item name="attr_7f0300d9">?android:dividerHorizontal</item>
+        <item name="attr_7f0300db">?android:dividerVertical</item>
+        <item name="attr_7f0300ed">@drawable/drawable_7f07001e</item>
+        <item name="attr_7f0300ee">?android:editTextColor</item>
+        <item name="attr_7f030121">?android:homeAsUpIndicator</item>
+        <item name="attr_7f030188">?android:listChoiceBackgroundIndicator</item>
+        <item name="attr_7f030192">?android:listPreferredItemHeightSmall</item>
+        <item name="attr_7f0301f0">?android:radioButtonStyle</item>
+        <item name="attr_7f0301f2">?android:ratingBarStyle</item>
+        <item name="attr_7f03020c">?android:selectableItemBackground</item>
+        <item name="attr_7f03020d">?android:selectableItemBackgroundBorderless</item>
+        <item name="attr_7f03021b">?android:spinnerStyle</item>
+        <item name="attr_7f03023b">?android:textAppearanceLargePopupMenu</item>
+        <item name="attr_7f030242">?android:textAppearanceSmallPopupMenu</item>
+    </style>
+    <style name="style_7f120079" parent="@style/style_7f120087">
+        <item name="android:windowElevation">@dimen/dimen_7f06002f</item>
+    </style>
+    <style name="style_7f12007a" parent="@style/style_7f120088">
+        <item name="android:colorControlNormal">?attr_7f0300a4</item>
+        <item name="android:colorControlActivated">?attr_7f0300a2</item>
+        <item name="android:colorButtonNormal">?attr_7f0300a1</item>
+        <item name="android:colorControlHighlight">?attr_7f0300a3</item>
+        <item name="android:colorPrimary">?attr_7f0300a6</item>
+        <item name="android:colorPrimaryDark">?attr_7f0300a7</item>
+        <item name="android:colorAccent">?attr_7f03009f</item>
+        <item name="attr_7f030002">?android:actionBarDivider</item>
+        <item name="attr_7f030003">@drawable/drawable_7f07000b</item>
+        <item name="attr_7f030005">?android:actionBarSize</item>
+        <item name="attr_7f03000d">?android:actionButtonStyle</item>
+        <item name="attr_7f030012">?android:actionModeBackground</item>
+        <item name="attr_7f030014">?android:actionModeCloseDrawable</item>
+        <item name="attr_7f030073">?android:borderlessButtonStyle</item>
+        <item name="attr_7f03007f">?android:buttonStyle</item>
+        <item name="attr_7f030080">?android:buttonStyleSmall</item>
+        <item name="attr_7f03008f">?android:checkboxStyle</item>
+        <item name="attr_7f030090">?android:checkedTextViewStyle</item>
+        <item name="attr_7f0300d9">?android:dividerHorizontal</item>
+        <item name="attr_7f0300db">?android:dividerVertical</item>
+        <item name="attr_7f0300ed">@drawable/drawable_7f07001e</item>
+        <item name="attr_7f0300ee">?android:editTextColor</item>
+        <item name="attr_7f030121">?android:homeAsUpIndicator</item>
+        <item name="attr_7f030188">?android:listChoiceBackgroundIndicator</item>
+        <item name="attr_7f030192">?android:listPreferredItemHeightSmall</item>
+        <item name="attr_7f0301f0">?android:radioButtonStyle</item>
+        <item name="attr_7f0301f2">?android:ratingBarStyle</item>
+        <item name="attr_7f03020c">?android:selectableItemBackground</item>
+        <item name="attr_7f03020d">?android:selectableItemBackgroundBorderless</item>
+        <item name="attr_7f03021b">?android:spinnerStyle</item>
+        <item name="attr_7f03023b">?android:textAppearanceLargePopupMenu</item>
+        <item name="attr_7f030242">?android:textAppearanceSmallPopupMenu</item>
+    </style>
+    <style name="style_7f12007b" parent="@style/style_7f120089">
+        <item name="android:windowElevation">@dimen/dimen_7f06002f</item>
+    </style>
+    <style name="style_7f12007c" parent="@style/style_7f12008a">
+        <item name="android:windowElevation">@dimen/dimen_7f06002f</item>
+    </style>
+    <style name="style_7f120086" parent="@style/style_7f1200d6">
+        <item name="android:panelBackground">@android:color/transparent</item>
+        <item name="android:dropDownListViewStyle">@style/style_7f12018c</item>
+        <item name="android:textViewStyle">@style/style_7f12019e</item>
+        <item name="android:dropDownItemStyle">@style/style_7f120170</item>
+        <item name="android:spinnerItemStyle">@style/style_7f12019f</item>
+        <item name="android:textAppearanceButton">@style/style_7f120120</item>
+        <item name="attr_7f030002">?attr_7f0300db</item>
+        <item name="attr_7f030003">?attr_7f03020d</item>
+        <item name="attr_7f030004">@null</item>
+        <item name="attr_7f030005">@dimen/dimen_7f060002</item>
+        <item name="attr_7f030006">?attr_7f030007</item>
+        <item name="attr_7f030007">@style/style_7f12015a</item>
+        <item name="attr_7f030008">@style/style_7f12015b</item>
+        <item name="attr_7f030009">@style/style_7f12015d</item>
+        <item name="attr_7f03000a">@style/style_7f12015c</item>
+        <item name="attr_7f03000b">@style/style_7f12014c</item>
+        <item name="attr_7f03000c">@null</item>
+        <item name="attr_7f03000d">@style/style_7f12015e</item>
+        <item name="attr_7f03000e">@style/style_7f12019c</item>
+        <item name="attr_7f030010">@style/style_7f120117</item>
+        <item name="attr_7f030011">?android:textColorPrimaryDisableOnly</item>
+        <item name="attr_7f030012">@drawable/drawable_7f07001a</item>
+        <item name="attr_7f030013">@style/style_7f12015f</item>
+        <item name="attr_7f030014">@drawable/drawable_7f07001f</item>
+        <item name="attr_7f030015">@drawable/drawable_7f070024</item>
+        <item name="attr_7f030016">@drawable/drawable_7f070025</item>
+        <item name="attr_7f030018">@drawable/drawable_7f070027</item>
+        <item name="attr_7f03001a">@drawable/drawable_7f070028</item>
+        <item name="attr_7f03001b">@drawable/drawable_7f070029</item>
+        <item name="attr_7f03001c">?attr_7f0300a7</item>
+        <item name="attr_7f03001d">@style/style_7f120161</item>
+        <item name="attr_7f03001f">@style/style_7f120160</item>
+        <item name="attr_7f030020">@style/style_7f12018f</item>
+        <item name="attr_7f030023">@style/style_7f120162</item>
+        <item name="attr_7f03004f">false</item>
+        <item name="attr_7f030050">@style/MT_Bin</item>
+        <item name="attr_7f030051">@style/style_7f120152</item>
+        <item name="attr_7f03005f">@style/style_7f120163</item>
+        <item name="attr_7f030073">@style/style_7f120165</item>
+        <item name="attr_7f030075">@style/style_7f120167</item>
+        <item name="attr_7f030076">?attr_7f030075</item>
+        <item name="attr_7f030077">?attr_7f030075</item>
+        <item name="attr_7f030078">?attr_7f030075</item>
+        <item name="attr_7f030079">@style/style_7f12016a</item>
+        <item name="attr_7f03007f">@style/style_7f120164</item>
+        <item name="attr_7f030080">@style/style_7f120169</item>
+        <item name="attr_7f03008f">@style/style_7f12016c</item>
+        <item name="attr_7f03009f">@color/color_7f05001a</item>
+        <item name="attr_7f0300a0">@color/color_7f050037</item>
+        <item name="attr_7f0300a1">@color/color_7f05004b</item>
+        <item name="attr_7f0300a2">?attr_7f03009f</item>
+        <item name="attr_7f0300a3">@color/color_7f0500e1</item>
+        <item name="attr_7f0300a4">?android:textColorSecondary</item>
+        <item name="attr_7f0300a5">@color/color_7f05007e</item>
+        <item name="attr_7f0300a6">@color/color_7f0500da</item>
+        <item name="attr_7f0300a7">@color/color_7f0500d8</item>
+        <item name="attr_7f0300a9">@color/color_7f0500ea</item>
+        <item name="attr_7f0300bd">?attr_7f03020d</item>
+        <item name="attr_7f0300d4">@dimen/dimen_7f06001b</item>
+        <item name="attr_7f0300d5">@dimen/dimen_7f060024</item>
+        <item name="attr_7f0300d6">@style/style_7f120151</item>
+        <item name="attr_7f0300d9">@drawable/drawable_7f070035</item>
+        <item name="attr_7f0300db">@drawable/drawable_7f070035</item>
+        <item name="attr_7f0300e9">@style/style_7f12016f</item>
+        <item name="attr_7f0300ea">?android:dropDownListViewStyle</item>
+        <item name="attr_7f0300eb">?attr_7f030192</item>
+        <item name="attr_7f0300ed">@drawable/drawable_7f07001e</item>
+        <item name="attr_7f0300ee">?android:textColorPrimary</item>
+        <item name="attr_7f0300ef">@style/style_7f120171</item>
+        <item name="attr_7f030121">@drawable/drawable_7f07001f</item>
+        <item name="attr_7f03012b">@style/style_7f120172</item>
+        <item name="attr_7f030136">false</item>
+        <item name="attr_7f030188">@drawable/drawable_7f07003e</item>
+        <item name="attr_7f03018b">@null</item>
+        <item name="attr_7f03018e">@style/style_7f120189</item>
+        <item name="attr_7f03018f">@style/style_7f12018a</item>
+        <item name="attr_7f030190">@dimen/dimen_7f060031</item>
+        <item name="attr_7f030191">@dimen/dimen_7f060030</item>
+        <item name="attr_7f030192">@dimen/dimen_7f060032</item>
+        <item name="attr_7f030193">@dimen/dimen_7f060033</item>
+        <item name="attr_7f030194">@dimen/dimen_7f060033</item>
+        <item name="attr_7f030195">@dimen/dimen_7f060033</item>
+        <item name="attr_7f030196">@dimen/dimen_7f060033</item>
+        <item name="attr_7f0301d6">@drawable/drawable_7f070040</item>
+        <item name="attr_7f0301d7">@style/style_7f120133</item>
+        <item name="attr_7f0301d8">@dimen/dimen_7f060034</item>
+        <item name="attr_7f0301e3">@style/style_7f12018e</item>
+        <item name="attr_7f0301f0">@style/style_7f12016d</item>
+        <item name="attr_7f0301f2">@style/style_7f120193</item>
+        <item name="attr_7f0301f3">@style/style_7f120194</item>
+        <item name="attr_7f0301f4">@style/style_7f120195</item>
+        <item name="attr_7f030209">@style/style_7f120196</item>
+        <item name="attr_7f03020a">@style/style_7f120198</item>
+        <item name="attr_7f03020c">@drawable/drawable_7f070032</item>
+        <item name="attr_7f03020d">?attr_7f03020c</item>
+        <item name="attr_7f03021a">@style/style_7f120170</item>
+        <item name="attr_7f03021b">@style/style_7f12019a</item>
+        <item name="attr_7f030233">@style/style_7f12016e</item>
+        <item name="attr_7f03023b">@style/style_7f120126</item>
+        <item name="attr_7f03023c">@style/style_7f120112</item>
+        <item name="attr_7f03023d">@style/style_7f1200fb</item>
+        <item name="attr_7f03023e">@style/style_7f120112</item>
+        <item name="attr_7f03023f">@style/style_7f120125</item>
+        <item name="attr_7f030240">@style/style_7f12010e</item>
+        <item name="attr_7f030241">@style/style_7f12010f</item>
+        <item name="attr_7f030242">@style/style_7f120127</item>
+        <item name="attr_7f030248">@color/color_7f05000c</item>
+        <item name="attr_7f030249">@color/color_7f05000e</item>
+        <item name="attr_7f03026a">@style/style_7f1201a1</item>
+        <item name="attr_7f03026b">@style/style_7f1201a0</item>
+        <item name="attr_7f03026c">@color/color_7f050085</item>
+        <item name="attr_7f03026d">@drawable/drawable_7f0701fa</item>
+        <item name="attr_7f03028f">true</item>
+        <item name="attr_7f030290">false</item>
+        <item name="attr_7f030291">false</item>
+        <item name="attr_7f030292">@null</item>
+        <item name="attr_7f030293">@null</item>
+        <item name="attr_7f030294">@null</item>
+        <item name="attr_7f030295">@null</item>
+        <item name="attr_7f030298">false</item>
+    </style>
+    <style name="style_7f120087" parent="@style/style_7f120063">
+        <item name="android:colorBackground">?attr_7f0300a0</item>
+        <item name="android:windowBackground">@drawable/drawable_7f07001d</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/style_7f1200e7</item>
+        <item name="android:windowTitleBackgroundStyle">@style/style_7f120032</item>
+        <item name="android:windowAnimationStyle">@style/style_7f120002</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:borderlessButtonStyle">@style/style_7f120165</item>
+        <item name="android:buttonBarStyle">@style/style_7f12016b</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="attr_7f030194">24.0dip</item>
+        <item name="attr_7f030195">24.0dip</item>
+        <item name="attr_7f03028f">false</item>
+        <item name="attr_7f030291">true</item>
+    </style>
+    <style name="style_7f120088" parent="@style/style_7f1200d7">
+        <item name="android:panelBackground">@android:color/transparent</item>
+        <item name="android:dropDownListViewStyle">@style/style_7f12018c</item>
+        <item name="android:textViewStyle">@style/style_7f12019e</item>
+        <item name="android:dropDownItemStyle">@style/style_7f120170</item>
+        <item name="android:spinnerItemStyle">@style/style_7f12019f</item>
+        <item name="android:textAppearanceButton">@style/style_7f120120</item>
+        <item name="attr_7f030002">?attr_7f0300db</item>
+        <item name="attr_7f030003">?attr_7f03020d</item>
+        <item name="attr_7f030004">@null</item>
+        <item name="attr_7f030005">@dimen/dimen_7f060002</item>
+        <item name="attr_7f030006">?attr_7f030007</item>
+        <item name="attr_7f030007">@style/style_7f120174</item>
+        <item name="attr_7f030008">@style/style_7f120176</item>
+        <item name="attr_7f030009">@style/style_7f12017a</item>
+        <item name="attr_7f03000a">@style/style_7f120178</item>
+        <item name="attr_7f03000b">@style/style_7f12014c</item>
+        <item name="attr_7f03000c">@null</item>
+        <item name="attr_7f03000d">@style/style_7f12017c</item>
+        <item name="attr_7f03000e">@style/style_7f120188</item>
+        <item name="attr_7f030010">@style/style_7f120117</item>
+        <item name="attr_7f030011">?android:textColorPrimaryDisableOnly</item>
+        <item name="attr_7f030012">@drawable/drawable_7f07001a</item>
+        <item name="attr_7f030013">@style/style_7f12015f</item>
+        <item name="attr_7f030014">@drawable/drawable_7f07001f</item>
+        <item name="attr_7f030015">@drawable/drawable_7f070024</item>
+        <item name="attr_7f030016">@drawable/drawable_7f070025</item>
+        <item name="attr_7f030018">@drawable/drawable_7f070027</item>
+        <item name="attr_7f03001a">@drawable/drawable_7f070028</item>
+        <item name="attr_7f03001b">@drawable/drawable_7f070029</item>
+        <item name="attr_7f03001c">?attr_7f0300a7</item>
+        <item name="attr_7f03001d">@style/style_7f120161</item>
+        <item name="attr_7f03001f">@style/style_7f12017e</item>
+        <item name="attr_7f030020">@style/style_7f120186</item>
+        <item name="attr_7f030023">@style/style_7f120162</item>
+        <item name="attr_7f03004f">false</item>
+        <item name="attr_7f030050">@style/style_7f120001</item>
+        <item name="attr_7f030051">@style/style_7f120152</item>
+        <item name="attr_7f03005f">@style/style_7f120163</item>
+        <item name="attr_7f030073">@style/style_7f120165</item>
+        <item name="attr_7f030075">@style/style_7f120167</item>
+        <item name="attr_7f030076">?attr_7f030075</item>
+        <item name="attr_7f030077">?attr_7f030075</item>
+        <item name="attr_7f030078">?attr_7f030075</item>
+        <item name="attr_7f030079">@style/style_7f12016a</item>
+        <item name="attr_7f03007f">@style/style_7f120164</item>
+        <item name="attr_7f030080">@style/style_7f120169</item>
+        <item name="attr_7f03008f">@style/style_7f12016c</item>
+        <item name="attr_7f03009f">@color/color_7f05001b</item>
+        <item name="attr_7f0300a0">@color/color_7f050038</item>
+        <item name="attr_7f0300a1">@color/color_7f05004c</item>
+        <item name="attr_7f0300a2">?attr_7f03009f</item>
+        <item name="attr_7f0300a3">@color/color_7f0500e2</item>
+        <item name="attr_7f0300a4">?android:textColorSecondary</item>
+        <item name="attr_7f0300a5">@color/color_7f05007f</item>
+        <item name="attr_7f0300a6">@color/color_7f0500db</item>
+        <item name="attr_7f0300a7">@color/color_7f0500d9</item>
+        <item name="attr_7f0300a9">@color/color_7f0500eb</item>
+        <item name="attr_7f0300bd">?attr_7f03020d</item>
+        <item name="attr_7f0300d4">@dimen/dimen_7f06001b</item>
+        <item name="attr_7f0300d5">@dimen/dimen_7f060024</item>
+        <item name="attr_7f0300d6">@style/style_7f120151</item>
+        <item name="attr_7f0300d9">@drawable/drawable_7f070035</item>
+        <item name="attr_7f0300db">@drawable/drawable_7f070035</item>
+        <item name="attr_7f0300e9">@style/style_7f12016f</item>
+        <item name="attr_7f0300ea">?android:dropDownListViewStyle</item>
+        <item name="attr_7f0300eb">?attr_7f030192</item>
+        <item name="attr_7f0300ed">@drawable/drawable_7f07001e</item>
+        <item name="attr_7f0300ee">?android:textColorPrimary</item>
+        <item name="attr_7f0300ef">@style/style_7f120171</item>
+        <item name="attr_7f030121">@drawable/drawable_7f07001f</item>
+        <item name="attr_7f03012b">@style/style_7f120172</item>
+        <item name="attr_7f030136">true</item>
+        <item name="attr_7f030188">@drawable/drawable_7f07003f</item>
+        <item name="attr_7f03018b">@null</item>
+        <item name="attr_7f03018e">@style/style_7f120189</item>
+        <item name="attr_7f03018f">@style/style_7f12018a</item>
+        <item name="attr_7f030190">@dimen/dimen_7f060031</item>
+        <item name="attr_7f030191">@dimen/dimen_7f060030</item>
+        <item name="attr_7f030192">@dimen/dimen_7f060032</item>
+        <item name="attr_7f030193">@dimen/dimen_7f060033</item>
+        <item name="attr_7f030194">@dimen/dimen_7f060033</item>
+        <item name="attr_7f030195">@dimen/dimen_7f060033</item>
+        <item name="attr_7f030196">@dimen/dimen_7f060033</item>
+        <item name="attr_7f0301d6">@drawable/drawable_7f070040</item>
+        <item name="attr_7f0301d7">@style/style_7f120133</item>
+        <item name="attr_7f0301d8">@dimen/dimen_7f060034</item>
+        <item name="attr_7f0301e3">@style/style_7f120185</item>
+        <item name="attr_7f0301f0">@style/style_7f12016d</item>
+        <item name="attr_7f0301f2">@style/style_7f120193</item>
+        <item name="attr_7f0301f3">@style/style_7f120194</item>
+        <item name="attr_7f0301f4">@style/style_7f120195</item>
+        <item name="attr_7f030209">@style/style_7f120187</item>
+        <item name="attr_7f03020a">@style/style_7f120198</item>
+        <item name="attr_7f03020c">@drawable/drawable_7f070033</item>
+        <item name="attr_7f03020d">?attr_7f03020c</item>
+        <item name="attr_7f03021a">@style/style_7f120170</item>
+        <item name="attr_7f03021b">@style/style_7f12019a</item>
+        <item name="attr_7f030233">@style/style_7f12016e</item>
+        <item name="attr_7f03023b">@style/style_7f120109</item>
+        <item name="attr_7f03023c">@style/style_7f120112</item>
+        <item name="attr_7f03023d">@style/style_7f1200fb</item>
+        <item name="attr_7f03023e">@style/style_7f120112</item>
+        <item name="attr_7f03023f">@style/style_7f120125</item>
+        <item name="attr_7f030240">@style/style_7f12010e</item>
+        <item name="attr_7f030241">@style/style_7f12010f</item>
+        <item name="attr_7f030242">@style/style_7f12010a</item>
+        <item name="attr_7f030248">@color/color_7f05000d</item>
+        <item name="attr_7f030249">@color/color_7f05000e</item>
+        <item name="attr_7f03026a">@style/style_7f1201a1</item>
+        <item name="attr_7f03026b">@style/style_7f1201a0</item>
+        <item name="attr_7f03026c">@color/color_7f050084</item>
+        <item name="attr_7f03026d">@drawable/drawable_7f0701f9</item>
+        <item name="attr_7f03028f">true</item>
+        <item name="attr_7f030290">false</item>
+        <item name="attr_7f030291">false</item>
+        <item name="attr_7f030292">@null</item>
+        <item name="attr_7f030293">@null</item>
+        <item name="attr_7f030294">@null</item>
+        <item name="attr_7f030295">@null</item>
+        <item name="attr_7f030298">false</item>
+    </style>
+    <style name="style_7f120089" parent="@style/style_7f12006a">
+        <item name="android:colorBackground">?attr_7f0300a0</item>
+        <item name="android:windowBackground">@drawable/drawable_7f07001d</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/style_7f1200e7</item>
+        <item name="android:windowTitleBackgroundStyle">@style/style_7f120032</item>
+        <item name="android:windowAnimationStyle">@style/style_7f120002</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:borderlessButtonStyle">@style/style_7f120165</item>
+        <item name="android:buttonBarStyle">@style/style_7f12016b</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="attr_7f030194">24.0dip</item>
+        <item name="attr_7f030195">24.0dip</item>
+        <item name="attr_7f03028f">false</item>
+        <item name="attr_7f030291">true</item>
+    </style>
+    <style name="style_7f12008a" parent="@style/style_7f120071">
+        <item name="android:colorBackground">?attr_7f0300a0</item>
+        <item name="android:windowBackground">@drawable/drawable_7f07001d</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/style_7f1200e7</item>
+        <item name="android:windowTitleBackgroundStyle">@style/style_7f120032</item>
+        <item name="android:windowAnimationStyle">@style/style_7f120002</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:borderlessButtonStyle">@style/style_7f120165</item>
+        <item name="android:buttonBarStyle">@style/style_7f12016b</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="attr_7f030194">24.0dip</item>
+        <item name="attr_7f030195">24.0dip</item>
+        <item name="attr_7f03028f">false</item>
+        <item name="attr_7f030291">true</item>
+        <item name="attr_7f030292">@null</item>
+        <item name="attr_7f030293">@null</item>
+        <item name="attr_7f030294">@null</item>
+        <item name="attr_7f030295">@null</item>
+    </style>
+    <style name="style_7f12008b" parent="@android:style/Widget.AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:textColor">?attr_7f0300ee</item>
+        <item name="android:background">?attr_7f0300ed</item>
+        <item name="android:dropDownSelector">?attr_7f030188</item>
+        <item name="android:popupBackground">@drawable/drawable_7f070041</item>
+        <item name="android:textCursorDrawable">@drawable/drawable_7f070053</item>
+    </style>
+    <style name="style_7f12008c" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:textColor">?attr_7f0300ee</item>
+        <item name="android:background">?attr_7f0300ed</item>
+        <item name="android:textCursorDrawable">@drawable/drawable_7f070053</item>
+    </style>
+    <style name="style_7f12008d" parent="@android:style/Widget">
+        <item name="android:paddingLeft">@dimen/dimen_7f060004</item>
+        <item name="android:paddingRight">@dimen/dimen_7f060003</item>
+        <item name="android:minHeight">?attr_7f030005</item>
+        <item name="attr_7f03007b">id_7f0902db</item>
+        <item name="attr_7f03009c">@string/string_7f11001a</item>
+        <item name="attr_7f03009d">?attr_7f030121</item>
+        <item name="attr_7f0300ba">16.0dip</item>
+        <item name="attr_7f0300bb">@dimen/dimen_7f060001</item>
+        <item name="attr_7f03019b">@dimen/dimen_7f060002</item>
+        <item name="attr_7f03022d">@style/style_7f120130</item>
+        <item name="attr_7f030261">4.0dip</item>
+        <item name="attr_7f030267">@style/style_7f120131</item>
+    </style>
+    <style name="style_7f12008e">
+        <item name="android:gravity">center_vertical</item>
+        <item name="attr_7f03000d">@style/style_7f12015e</item>
+        <item name="attr_7f03001f">@style/style_7f120160</item>
+        <item name="attr_7f030066">@null</item>
+        <item name="attr_7f030067">@null</item>
+        <item name="attr_7f030068">@null</item>
+        <item name="attr_7f0300b6">@dimen/MT_Bin</item>
+        <item name="attr_7f0300ba">@dimen/MT_Bin</item>
+        <item name="attr_7f0300bb">@dimen/dimen_7f060001</item>
+        <item name="attr_7f0300d7">id_7f0902a1</item>
+        <item name="attr_7f0300d8">?attr_7f0300db</item>
+        <item name="attr_7f0300f0">@dimen/dimen_7f060005</item>
+        <item name="attr_7f03011f">?attr_7f030005</item>
+        <item name="attr_7f0301e4">?attr_7f030004</item>
+        <item name="attr_7f03022f">@style/style_7f120118</item>
+        <item name="attr_7f030269">@style/style_7f12011a</item>
+    </style>
+    <style name="style_7f12008f" parent="@style/style_7f12008e">
+        <item name="attr_7f030066">?attr_7f0300a6</item>
+        <item name="attr_7f030067">?attr_7f0300a6</item>
+        <item name="attr_7f030068">?attr_7f0300a6</item>
+    </style>
+    <style name="style_7f120090">
+        <item name="attr_7f0300d8">?attr_7f030002</item>
+        <item name="attr_7f0300da">8.0dip</item>
+        <item name="attr_7f030211">id_7f09024e</item>
+    </style>
+    <style name="style_7f120091" parent="@android:style/Widget.Material.ActionBar.TabText" />
+    <style name="style_7f120092" parent="@android:style/Widget.Material.ActionBar.TabView" />
+    <style name="style_7f120093" parent="@android:style/Widget.Material.ActionButton" />
+    <style name="style_7f120094" parent="@android:style/Widget.Material.ActionButton.CloseMode">
+        <item name="android:minWidth">56.0dip</item>
+    </style>
+    <style name="style_7f120095" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@null</item>
+        <item name="attr_7f030222">@drawable/drawable_7f070026</item>
+    </style>
+    <style name="style_7f120096">
+        <item name="attr_7f030066">?attr_7f030012</item>
+        <item name="attr_7f030067">?attr_7f03001c</item>
+        <item name="attr_7f03009b">@layout/layout_7f0c0005</item>
+        <item name="attr_7f03011f">?attr_7f030005</item>
+        <item name="attr_7f03022f">@style/style_7f12011c</item>
+        <item name="attr_7f030269">@style/style_7f12011e</item>
+    </style>
+    <style name="style_7f120097">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/drawable_7f07000a</item>
+        <item name="attr_7f0300d8">?attr_7f0300db</item>
+        <item name="attr_7f0300da">6.0dip</item>
+        <item name="attr_7f030211">id_7f09024e</item>
+    </style>
+    <style name="style_7f120098" parent="@android:style/Widget.Material.AutoCompleteTextView">
+        <item name="android:background">?attr_7f0300ed</item>
+    </style>
+    <style name="style_7f120099" parent="@android:style/Widget.Material.Button" />
+    <style name="style_7f12009a" parent="@android:style/Widget.Material.Button.Borderless" />
+    <style name="style_7f12009b" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+        <item name="android:textColor">@color/color_7f050003</item>
+    </style>
+    <style name="style_7f12009c" parent="@style/style_7f120166">
+        <item name="android:minWidth">64.0dip</item>
+        <item name="android:minHeight">@dimen/dimen_7f060010</item>
+    </style>
+    <style name="style_7f12009d" parent="@style/style_7f120099">
+        <item name="android:textAppearance">@style/style_7f120122</item>
+        <item name="android:background">@drawable/drawable_7f070011</item>
+    </style>
+    <style name="style_7f12009e" parent="@android:style/Widget.Material.Button.Small" />
+    <style name="style_7f12009f" parent="@android:style/Widget.Material.ButtonBar" />
+    <style name="style_7f1200a0" parent="@style/style_7f12009f" />
+    <style name="style_7f1200a1" parent="@android:style/Widget.Material.CompoundButton.CheckBox" />
+    <style name="style_7f1200a2" parent="@android:style/Widget.Material.CompoundButton.RadioButton" />
+    <style name="style_7f1200a3" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">?attr_7f0300bd</item>
+        <item name="android:textOn">@string/string_7f110007</item>
+        <item name="android:textOff">@string/string_7f110006</item>
+        <item name="android:thumb">@drawable/drawable_7f07004f</item>
+        <item name="attr_7f030213">false</item>
+        <item name="attr_7f030232">@dimen/dimen_7f06003b</item>
+        <item name="attr_7f030234">@style/style_7f120128</item>
+        <item name="attr_7f030272">@drawable/drawable_7f070050</item>
+    </style>
+    <style name="style_7f1200a4" parent="@style/style_7f1200a5">
+        <item name="attr_7f03006b">18.0dip</item>
+        <item name="attr_7f0300e4">24.0dip</item>
+        <item name="attr_7f03011a">3.0dip</item>
+    </style>
+    <style name="style_7f1200a5">
+        <item name="attr_7f03005b">8.0dip</item>
+        <item name="attr_7f03005c">16.0dip</item>
+        <item name="attr_7f03009e">?android:textColorSecondary</item>
+        <item name="attr_7f030219">true</item>
+        <item name="attr_7f030257">2.0dip</item>
+    </style>
+    <style name="style_7f1200a6" parent="@android:style/Widget.Material.DropDownItem.Spinner" />
+    <style name="style_7f1200a7" parent="@android:style/Widget.Material.EditText">
+        <item name="android:background">?attr_7f0300ed</item>
+    </style>
+    <style name="style_7f1200a8" parent="@android:style/Widget.Material.ImageButton" />
+    <style name="style_7f1200a9" parent="@style/style_7f12008e">
+        <item name="attr_7f03000d">@style/style_7f12017c</item>
+        <item name="attr_7f03001f">@style/style_7f12017e</item>
+    </style>
+    <style name="style_7f1200aa" parent="@style/style_7f1200a9">
+        <item name="attr_7f030066">?attr_7f0300a6</item>
+        <item name="attr_7f030067">?attr_7f0300a6</item>
+        <item name="attr_7f030068">?attr_7f0300a6</item>
+    </style>
+    <style name="style_7f1200ab" parent="@style/style_7f120090" />
+    <style name="style_7f1200ac" parent="@android:style/Widget.Material.Light.ActionBar.TabText" />
+    <style name="style_7f1200ad" parent="@android:style/Widget.Material.Light.ActionBar.TabText" />
+    <style name="style_7f1200ae" parent="@android:style/Widget.Material.Light.ActionBar.TabView" />
+    <style name="style_7f1200af" parent="@android:style/Widget.Material.Light.PopupMenu" />
+    <style name="style_7f1200b0" parent="@style/style_7f1200af">
+        <item name="android:dropDownHorizontalOffset">-4.0dip</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="style_7f1200b1" parent="@android:style/Widget">
+        <item name="attr_7f03022a">@drawable/drawable_7f070020</item>
+    </style>
+    <style name="style_7f1200b2" parent="@android:style/Widget.Material.ListPopupWindow" />
+    <style name="style_7f1200b3" parent="@android:style/Widget.Material.ListView" />
+    <style name="style_7f1200b4" parent="@android:style/Widget.Material.ListView.DropDown" />
+    <style name="style_7f1200b5" parent="@style/style_7f1200b3" />
+    <style name="style_7f1200b6" parent="@android:style/Widget.Material.PopupMenu" />
+    <style name="style_7f1200b7" parent="@style/style_7f1200b6">
+        <item name="android:dropDownHorizontalOffset">-4.0dip</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="style_7f1200b8" parent="@android:style/Widget.PopupWindow" />
+    <style name="style_7f1200b9" parent="@android:style/Widget.Material.ProgressBar" />
+    <style name="style_7f1200ba" parent="@android:style/Widget.Material.ProgressBar.Horizontal" />
+    <style name="style_7f1200bb" parent="@android:style/Widget.Material.RatingBar" />
+    <style name="style_7f1200bc" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">36.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/drawable_7f070042</item>
+        <item name="android:progressDrawable">@drawable/drawable_7f070042</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="style_7f1200bd" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/drawable_7f070044</item>
+        <item name="android:progressDrawable">@drawable/drawable_7f070044</item>
+        <item name="android:minHeight">16.0dip</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="style_7f1200be" parent="@android:style/Widget">
+        <item name="attr_7f03009a">@drawable/drawable_7f070021</item>
+        <item name="attr_7f0300ac">@drawable/drawable_7f070022</item>
+        <item name="attr_7f03011b">@drawable/drawable_7f070023</item>
+        <item name="attr_7f03013b">@layout/layout_7f0c0019</item>
+        <item name="attr_7f0301ed">@drawable/drawable_7f07005e</item>
+        <item name="attr_7f030207">@drawable/drawable_7f07002a</item>
+        <item name="attr_7f030208">@drawable/drawable_7f07002a</item>
+        <item name="attr_7f03022b">@drawable/drawable_7f07005e</item>
+        <item name="attr_7f030230">@layout/layout_7f0c0018</item>
+        <item name="attr_7f030287">@drawable/drawable_7f070031</item>
+    </style>
+    <style name="style_7f1200bf" parent="@style/style_7f1200be">
+        <item name="attr_7f0300cf">@string/string_7f110012</item>
+        <item name="attr_7f0301ed">@null</item>
+        <item name="attr_7f030207">@null</item>
+        <item name="attr_7f03022b">@null</item>
+    </style>
+    <style name="style_7f1200c0" parent="@android:style/Widget.Material.SeekBar" />
+    <style name="style_7f1200c1" parent="@style/style_7f1200c0">
+        <item name="attr_7f03025b">@drawable/drawable_7f07004b</item>
+    </style>
+    <style name="style_7f1200c2" parent="@android:style/Widget.Material.Spinner" />
+    <style name="style_7f1200c3" parent="@style/style_7f1200c2">
+        <item name="android:background">@drawable/drawable_7f07004e</item>
+    </style>
+    <style name="style_7f1200c4" parent="@android:style/Widget.Material.TextView" />
+    <style name="style_7f1200c5" parent="@android:style/Widget.Material.TextView.SpinnerItem" />
+    <style name="style_7f1200c6" parent="@style/style_7f12008d" />
+    <style name="style_7f1200c7" parent="@android:style/Widget.Material.Toolbar.Button.Navigation" />
+    <style name="style_7f1200c8" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden|adjustResize</item>
+    </style>
+    <style name="style_7f1200c9" parent="@style/style_7f120076">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="style_7f1200ca">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/color_7f050078</item>
+        <item name="android:background">@drawable/drawable_7f0700ea</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/dimen_7f060087</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="style_7f1200cb">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/color_7f050079</item>
+        <item name="android:background">@drawable/drawable_7f07011d</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/dimen_7f060087</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="style_7f1200cc">
+        <item name="android:background">@color/color_7f050127</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="style_7f1200cd" parent="@style/style_7f1200c8">
+        <item name="android:windowSoftInputMode">stateAlwaysVisible|adjustResize</item>
+    </style>
+    <style name="style_7f1200ce" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/color_7f0500f1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="style_7f1200cf">
+        <item name="android:layout_width">90.0dip</item>
+        <item name="android:layout_height">90.0dip</item>
+    </style>
+    <style name="style_7f1200d0">
+        <item name="android:windowBackground">@color/color_7f0500f1</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="style_7f1200d1" parent="@style/AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="style_7f1200d2" parent="@style/style_7f1201a0">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:background">#fff5f5f5</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="attr_7f0300ba">0.0dip</item>
+        <item name="attr_7f0300bb">0.0dip</item>
+        <item name="attr_7f030256">@style/style_7f120155</item>
+    </style>
+    <style name="style_7f1200d3" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/color_7f050068</item>
+        <item name="attr_7f03009f">@android:color/transparent</item>
+        <item name="attr_7f0300a6">@android:color/transparent</item>
+        <item name="attr_7f0300a7">@android:color/transparent</item>
+    </style>
+    <style name="style_7f1200d4" parent="@style/style_7f120186">
+        <item name="attr_7f0301d0">false</item>
+    </style>
+    <style name="style_7f1200d5">
+        <item name="android:windowEnterAnimation">@anim/anim_7f01001e</item>
+    </style>
+    <style name="style_7f1200d6" parent="@style/style_7f1200db" />
+    <style name="style_7f1200d7" parent="@style/style_7f1200dc" />
+    <style name="style_7f1200d8">
+        <item name="android:colorControlNormal">?attr_7f0300a4</item>
+        <item name="android:colorControlActivated">?attr_7f0300a2</item>
+        <item name="android:colorButtonNormal">?attr_7f0300a1</item>
+        <item name="android:colorControlHighlight">?attr_7f0300a3</item>
+        <item name="android:colorPrimary">?attr_7f0300a6</item>
+        <item name="android:colorPrimaryDark">?attr_7f0300a7</item>
+        <item name="android:colorAccent">?attr_7f03009f</item>
+    </style>
+    <style name="style_7f1200d9" parent="@style/style_7f1200d8" />
+    <style name="style_7f1200da" parent="@style/style_7f1200d8" />
+    <style name="style_7f1200db" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">@color/color_7f050009</item>
+        <item name="android:textColorHint">@color/color_7f050008</item>
+        <item name="android:textColorLink">?android:colorAccent</item>
+        <item name="android:buttonBarStyle">?attr_7f030079</item>
+        <item name="android:buttonBarButtonStyle">?attr_7f030075</item>
+        <item name="android:textColorLinkInverse">?android:colorAccent</item>
+    </style>
+    <style name="style_7f1200dc" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:textColorHintInverse">@color/color_7f050008</item>
+        <item name="android:textColorHint">@color/color_7f050009</item>
+        <item name="android:textColorLink">?android:colorAccent</item>
+        <item name="android:buttonBarStyle">?attr_7f030079</item>
+        <item name="android:buttonBarButtonStyle">?attr_7f030075</item>
+        <item name="android:textColorLinkInverse">?android:colorAccent</item>
+    </style>
+    <style name="style_7f1200df" parent="@android:style/Widget.Holo.Spinner" />
+    <style name="style_7f1200e0" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f01001f</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f010020</item>
+    </style>
+    <style name="style_7f1200e1" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f010021</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f010022</item>
+    </style>
+    <style name="style_7f1200e2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f010023</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f010024</item>
+    </style>
+    <style name="style_7f1200e3" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f010025</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f010026</item>
+    </style>
+    <style name="style_7f1200e4" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f010027</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f010028</item>
+    </style>
+    <style name="style_7f1200e5" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_7f010029</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f01002a</item>
+    </style>
+    <style name="style_7f1200e6" parent="@style/style_7f120143" />
+    <style name="style_7f1200e7" parent="@style/style_7f120031">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="style_7f1200e8" parent="@android:style/Widget">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="style_7f1200e9" parent="@android:style/Widget">
+        <item name="android:layout_marginEnd">8.0dip</item>
+    </style>
+    <style name="style_7f1200ea" parent="@android:style/Widget">
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="style_7f1200eb" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="style_7f1200ec" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="style_7f1200ed" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">8.0dip</item>
+    </style>
+    <style name="style_7f1200ee" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="style_7f1200ef" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="style_7f1200f0" parent="@android:style/Widget">
+        <item name="android:paddingStart">@dimen/dimen_7f06002a</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="style_7f1200f1" parent="@android:style/Widget">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="style_7f1200f2" parent="@android:style/Widget">
+        <item name="android:layout_toStartOf">@id/id_7f090121</item>
+    </style>
+    <style name="style_7f1200f3" parent="@android:style/Widget">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="style_7f1200f4" parent="@style/style_7f1200a6">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="style_7f1200f5" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">@dimen/dimen_7f06002a</item>
+    </style>
+    <style name="style_7f1200f6" parent="@android:style/Widget">
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="style_7f1200f7" parent="@style/style_7f120093">
+        <item name="android:paddingStart">@dimen/dimen_7f060008</item>
+        <item name="android:paddingEnd">@dimen/dimen_7f060007</item>
+    </style>
+    <style name="style_7f1200f8">
+        <item name="android:layout_width">50.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    <style name="style_7f1200f9">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="style_7f1200fa" parent="@style/style_7f120033" />
+    <style name="style_7f1200fb" parent="@style/style_7f120034" />
+    <style name="style_7f1200fc" parent="@style/style_7f120035" />
+    <style name="style_7f1200fd" parent="@style/style_7f120036" />
+    <style name="style_7f1200fe" parent="@style/style_7f120037" />
+    <style name="style_7f1200ff" parent="@style/style_7f120038" />
+    <style name="style_7f120100" parent="@style/style_7f120039" />
+    <style name="style_7f120101" parent="@style/style_7f12003a" />
+    <style name="style_7f120102" parent="@style/style_7f12003b" />
+    <style name="style_7f120103" parent="@style/style_7f12003c" />
+    <style name="style_7f120104" parent="@style/style_7f12003d" />
+    <style name="style_7f120105" parent="@style/style_7f12003e" />
+    <style name="style_7f120106" parent="@style/style_7f12003f" />
+    <style name="style_7f120107" parent="@style/style_7f12010e" />
+    <style name="style_7f120108" parent="@style/style_7f12010f" />
+    <style name="style_7f120109" parent="@style/style_7f120126" />
+    <style name="style_7f12010a" parent="@style/style_7f120127" />
+    <style name="style_7f12010b" parent="@style/style_7f120042" />
+    <style name="style_7f12010c" parent="@style/style_7f120043" />
+    <style name="style_7f12010d" parent="@style/style_7f120044" />
+    <style name="style_7f12010e" parent="@style/style_7f120046" />
+    <style name="style_7f12010f" parent="@style/style_7f120047" />
+    <style name="style_7f120110" parent="@style/style_7f120048" />
+    <style name="style_7f120111" parent="@style/style_7f120049" />
+    <style name="style_7f120112" parent="@style/style_7f12004a" />
+    <style name="style_7f120113" parent="@style/style_7f12004b" />
+    <style name="style_7f120114" parent="@style/style_7f12004c" />
+    <style name="style_7f120115" parent="@style/style_7f12004d" />
+    <style name="style_7f120116" parent="@style/style_7f1200fa">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="style_7f120117" parent="@style/style_7f12004f" />
+    <style name="style_7f120118" parent="@style/style_7f120050" />
+    <style name="style_7f120119" parent="@style/style_7f120051" />
+    <style name="style_7f12011a" parent="@style/style_7f120052" />
+    <style name="style_7f12011b" parent="@style/style_7f120053" />
+    <style name="style_7f12011c" parent="@style/style_7f120054" />
+    <style name="style_7f12011d" parent="@style/style_7f12011c" />
+    <style name="style_7f12011e" parent="@style/style_7f120055" />
+    <style name="style_7f12011f" parent="@style/style_7f12011e" />
+    <style name="style_7f120120" parent="@style/style_7f120056" />
+    <style name="style_7f120121" parent="@style/style_7f120057" />
+    <style name="style_7f120122" parent="@style/style_7f120058" />
+    <style name="style_7f120123" parent="@style/style_7f120059" />
+    <style name="style_7f120124" parent="@style/style_7f12005a" />
+    <style name="style_7f120125" parent="@style/style_7f12005b" />
+    <style name="style_7f120126" parent="@style/style_7f12005c" />
+    <style name="style_7f120127" parent="@style/style_7f12005d" />
+    <style name="style_7f120128" parent="@style/style_7f12005e" />
+    <style name="style_7f120129" parent="@style/style_7f12005f" />
+    <style name="style_7f12012a" parent="@android:style/TextAppearance.Material.Notification" />
+    <style name="style_7f12012b" parent="@android:style/TextAppearance.Material.Notification.Info" />
+    <style name="style_7f12012c" parent="@style/style_7f12012b" />
+    <style name="style_7f12012d" parent="@android:style/TextAppearance.Material.Notification.Time" />
+    <style name="style_7f12012e" parent="@android:style/TextAppearance.Material.Notification.Title" />
+    <style name="style_7f12012f" parent="@style/style_7f120060" />
+    <style name="style_7f120130" parent="@style/style_7f120061" />
+    <style name="style_7f120131" parent="@style/style_7f120062" />
+    <style name="style_7f120132" parent="@style/style_7f120063" />
+    <style name="style_7f120133" parent="@style/style_7f120064" />
+    <style name="style_7f120134" parent="@style/style_7f120140" />
+    <style name="style_7f120135" parent="@style/style_7f120141" />
+    <style name="style_7f120136" parent="@style/style_7f120142" />
+    <style name="style_7f120137" parent="@style/style_7f120143" />
+    <style name="style_7f120138" parent="@style/style_7f120144" />
+    <style name="style_7f120139" parent="@style/style_7f120145" />
+    <style name="style_7f12013a" parent="@style/style_7f120146" />
+    <style name="style_7f12013b" parent="@style/style_7f120065" />
+    <style name="style_7f12013c" parent="@style/style_7f120066" />
+    <style name="style_7f12013d" parent="@style/style_7f120068" />
+    <style name="style_7f12013e" parent="@style/style_7f120069" />
+    <style name="style_7f12013f" />
+    <style name="style_7f120140" parent="@style/style_7f12006a" />
+    <style name="style_7f120141" parent="@style/style_7f12006b" />
+    <style name="style_7f120142" parent="@style/style_7f12006c" />
+    <style name="style_7f120143" parent="@style/style_7f12006d" />
+    <style name="style_7f120144" parent="@style/style_7f12006f" />
+    <style name="style_7f120145" parent="@style/style_7f120070" />
+    <style name="style_7f120146" parent="@style/style_7f120140">
+        <item name="attr_7f03028f">false</item>
+        <item name="attr_7f030298">true</item>
+    </style>
+    <style name="style_7f120147" parent="@style/style_7f120132">
+        <item name="attr_7f03028f">false</item>
+        <item name="attr_7f030298">true</item>
+    </style>
+    <style name="style_7f120148" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="style_7f120149" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="style_7f12014a" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="style_7f12014b" parent="@style/style_7f120071" />
+    <style name="style_7f12014c" parent="@style/style_7f120072" />
+    <style name="style_7f12014d" parent="@style/style_7f120073" />
+    <style name="style_7f12014e" parent="@style/style_7f120074" />
+    <style name="style_7f12014f" parent="@style/style_7f120153" />
+    <style name="style_7f120150" parent="@style/style_7f12014f">
+        <item name="attr_7f0300a4">?android:textColorPrimary</item>
+        <item name="attr_7f030209">@style/style_7f120197</item>
+    </style>
+    <style name="style_7f120151" parent="@style/style_7f120075" />
+    <style name="style_7f120152" parent="@style/style_7f120076" />
+    <style name="style_7f120153" parent="@style/style_7f120077" />
+    <style name="style_7f120154">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/color_7f050128</item>
+    </style>
+    <style name="style_7f120155" parent="@style/style_7f12014c">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="attr_7f030020">@style/style_7f1200d4</item>
+        <item name="attr_7f0300a3">@android:color/white</item>
+        <item name="attr_7f0300a4">@android:color/white</item>
+    </style>
+    <style name="style_7f120156" parent="@style/style_7f12013b">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="attr_7f03028f">false</item>
+        <item name="attr_7f030298">true</item>
+    </style>
+    <style name="style_7f120157" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="style_7f120158" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="style_7f120159" parent="@style/style_7f12008e" />
+    <style name="style_7f12015a" parent="@style/style_7f12008f" />
+    <style name="style_7f12015b" parent="@style/style_7f120090" />
+    <style name="style_7f12015c" parent="@style/style_7f120091" />
+    <style name="style_7f12015d" parent="@style/style_7f120092" />
+    <style name="style_7f12015e" parent="@style/style_7f120093" />
+    <style name="style_7f12015f" parent="@style/style_7f120094" />
+    <style name="style_7f120160" parent="@style/style_7f120095" />
+    <style name="style_7f120161" parent="@style/style_7f120096" />
+    <style name="style_7f120162" parent="@style/style_7f120097" />
+    <style name="style_7f120163" parent="@style/style_7f120098" />
+    <style name="style_7f120164" parent="@style/style_7f120099" />
+    <style name="style_7f120165" parent="@style/style_7f12009a" />
+    <style name="style_7f120166" parent="@style/style_7f12009b" />
+    <style name="style_7f120167" parent="@style/style_7f12009c" />
+    <style name="style_7f120168" parent="@style/style_7f12009d" />
+    <style name="style_7f120169" parent="@style/style_7f12009e" />
+    <style name="style_7f12016a" parent="@style/style_7f12009f" />
+    <style name="style_7f12016b" parent="@style/style_7f1200a0" />
+    <style name="style_7f12016c" parent="@style/style_7f1200a1" />
+    <style name="style_7f12016d" parent="@style/style_7f1200a2" />
+    <style name="style_7f12016e" parent="@style/style_7f1200a3" />
+    <style name="style_7f12016f" parent="@style/style_7f1200a4">
+        <item name="attr_7f03009e">?attr_7f0300a4</item>
+    </style>
+    <style name="style_7f120170" parent="@style/style_7f1200f4" />
+    <style name="style_7f120171" parent="@style/style_7f1200a7" />
+    <style name="style_7f120172" parent="@style/style_7f1200a8" />
+    <style name="style_7f120173" parent="@style/style_7f1200a9" />
+    <style name="style_7f120174" parent="@style/style_7f1200aa" />
+    <style name="style_7f120175" parent="@style/style_7f120174" />
+    <style name="style_7f120176" parent="@style/style_7f1200ab" />
+    <style name="style_7f120177" parent="@style/style_7f120176" />
+    <style name="style_7f120178" parent="@style/style_7f1200ac" />
+    <style name="style_7f120179" parent="@style/style_7f1200ad" />
+    <style name="style_7f12017a" parent="@style/style_7f1200ae" />
+    <style name="style_7f12017b" parent="@style/style_7f12017a" />
+    <style name="style_7f12017c" parent="@style/style_7f12015e" />
+    <style name="style_7f12017d" parent="@style/style_7f12015f" />
+    <style name="style_7f12017e" parent="@style/style_7f120160" />
+    <style name="style_7f12017f" parent="@style/style_7f120161" />
+    <style name="style_7f120180" parent="@style/style_7f120162" />
+    <style name="style_7f120181" parent="@style/style_7f120163" />
+    <style name="style_7f120182" parent="@style/style_7f120170" />
+    <style name="style_7f120183" parent="@style/style_7f12018a" />
+    <style name="style_7f120184" parent="@style/style_7f12018c" />
+    <style name="style_7f120185" parent="@style/style_7f1200af" />
+    <style name="style_7f120186" parent="@style/style_7f1200b0" />
+    <style name="style_7f120187" parent="@style/style_7f120196" />
+    <style name="style_7f120188" parent="@style/style_7f12019c" />
+    <style name="style_7f120189" parent="@style/style_7f1200b1" />
+    <style name="style_7f12018a" parent="@style/style_7f1200b2" />
+    <style name="style_7f12018b" parent="@style/style_7f1200b3" />
+    <style name="style_7f12018c" parent="@style/style_7f1200b4" />
+    <style name="style_7f12018d" parent="@style/style_7f1200b5" />
+    <style name="style_7f12018e" parent="@style/style_7f1200b6" />
+    <style name="style_7f12018f" parent="@style/style_7f1200b7" />
+    <style name="style_7f120190" parent="@style/style_7f1200b8" />
+    <style name="style_7f120191" parent="@style/style_7f1200b9" />
+    <style name="style_7f120192" parent="@style/style_7f1200ba" />
+    <style name="style_7f120193" parent="@style/style_7f1200bb" />
+    <style name="style_7f120194" parent="@style/style_7f1200bc" />
+    <style name="style_7f120195" parent="@style/style_7f1200bd" />
+    <style name="style_7f120196" parent="@style/style_7f1200be" />
+    <style name="style_7f120197" parent="@style/style_7f1200bf" />
+    <style name="style_7f120198" parent="@style/style_7f1200c0" />
+    <style name="style_7f120199" parent="@style/style_7f1200c1" />
+    <style name="style_7f12019a" parent="@style/style_7f1200c2" />
+    <style name="style_7f12019b" parent="@style/style_7f12019a" />
+    <style name="style_7f12019c" parent="@style/style_7f12019b" />
+    <style name="style_7f12019d" parent="@style/style_7f1200c3" />
+    <style name="style_7f12019e" parent="@style/style_7f1200c4" />
+    <style name="style_7f12019f" parent="@style/style_7f1200c5" />
+    <style name="style_7f1201a0" parent="@style/style_7f1200c6" />
+    <style name="style_7f1201a1" parent="@style/style_7f1200c7" />
+    <style name="style_7f1201a2">
+        <item name="android:background">@drawable/drawable_7f0701e6</item>
+    </style>
+    <style name="style_7f1201a3">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:textSize">@dimen/dimen_7f0600a8</item>
+        <item name="android:textColor">@color/color_7f050026</item>
+    </style>
+    <style name="style_7f1201a4" parent="@android:style/Widget">
+        <item name="attr_7f030227">#ff000000</item>
+    </style>
+    <style name="style_7f1201a5" parent="@style/style_7f120158">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/style_7f1201c7</item>
+    </style>
+    <style name="style_7f1201a6" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@color/color_7f050029</item>
+        <item name="android:height">@dimen/dimen_7f060073</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/style_7f1201a7</item>
+        <item name="android:actionBarItemBackground">@style/style_7f1201a7</item>
+    </style>
+    <style name="style_7f1201a7" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/color_7f050032</item>
+    </style>
+    <style name="style_7f1201a8" parent="@android:style/Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/style_7f1201aa</item>
+        <item name="android:actionMenuTextColor">@color/color_7f050032</item>
+        <item name="android:colorPrimaryDark">@color/color_7f05002a</item>
+        <item name="android:colorEdgeEffect">@color/color_7f050032</item>
+    </style>
+    <style name="style_7f1201a9" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/drawable_7f070097</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="style_7f1201aa" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@color/color_7f050029</item>
+        <item name="android:height">@dimen/dimen_7f060073</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/style_7f1201ac</item>
+    </style>
+    <style name="style_7f1201ab" parent="@style/style_7f1201aa">
+        <item name="android:background">@color/color_7f05002f</item>
+    </style>
+    <style name="style_7f1201ac" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/color_7f050032</item>
+    </style>
+    <style name="style_7f1201ad" parent="@android:style/Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/style_7f1201aa</item>
+        <item name="android:colorPrimaryDark">@color/color_7f05002a</item>
+        <item name="android:colorEdgeEffect">@android:color/black</item>
+    </style>
+    <style name="style_7f1201ae" parent="@style/style_7f1201ad">
+        <item name="android:actionBarStyle">@style/style_7f1201ab</item>
+    </style>
+    <style name="style_7f1201af" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/color_7f050027</item>
+        <item name="android:background">@drawable/drawable_7f0700e8</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:text">Ad</item>
+        <item name="android:layout_marginEnd">4.0dip</item>
+    </style>
+    <style name="style_7f1201b0" parent="@android:style/Widget.TextView">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="style_7f1201b1" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/drawable_7f0700e7</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="style_7f1201b2" parent="@style/style_7f1201af">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="style_7f1201b3" parent="@style/style_7f1201b0">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="style_7f1201b4" parent="@style/style_7f1201b7">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="style_7f1201b5" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="style_7f1201b6" parent="@style/style_7f1201bd">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="style_7f1201b7" parent="@style/style_7f1201b0">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="style_7f1201b8" parent="@style/style_7f1201af">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="style_7f1201b9" parent="@style/style_7f1201b0">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="style_7f1201ba" parent="@style/style_7f1201b7">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="style_7f1201bb" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="style_7f1201bc" parent="@style/style_7f1201bd">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="style_7f1201bd" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="style_7f1201be" parent="@style/style_7f120076">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="style_7f1201bf" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="style_7f1201c0" parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@anim/anim_7f01000c</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f01000d</item>
+    </style>
+    <style name="style_7f1201c1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/color_7f0500f1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="style_7f1201c2" parent="@android:style/Theme.Translucent.NoTitleBar" />
+    <style name="style_7f1201c3" parent="@android:style/Theme.NoTitleBar.Fullscreen" />
+    <style name="style_7f1201c4" parent="@style/style_7f1201c2" />
+    <style name="style_7f1201c5" parent="@style/style_7f1201c3">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="style_7f1201c6" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/drawable_7f0701d7</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="style_7f1201c7">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="style_7f1201c8">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="style_7f1201c9">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="style_7f1201ca" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">?android:windowNoTitle</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+    </style>
+    <style name="style_7f1201cb" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/style_7f1201c0</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="style_7f1201cc" parent="@style/style_7f1201e8">
+        <item name="android:textColor">@color/color_7f05003b</item>
+    </style>
+    <style name="style_7f1201cd" parent="@style/style_7f1201cc">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="style_7f1201ce" parent="@style/style_7f1201cc">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="style_7f1201cf" parent="@style/style_7f1201cc">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="style_7f1201d0" parent="@style/style_7f1201d3">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="style_7f1201d1" parent="@style/style_7f1201d3">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="style_7f1201d2" parent="@style/style_7f1201d3">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="style_7f1201d3" parent="@style/style_7f1201e8">
+        <item name="android:textColor">@color/color_7f050128</item>
+    </style>
+    <style name="style_7f1201d4">
+        <item name="android:maxHeight">20.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/drawable_7f070202</item>
+        <item name="android:minHeight">20.0dip</item>
+    </style>
+    <style name="style_7f1201d5">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="style_7f1201d6" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/style_7f1201d5</item>
+    </style>
+    <style name="style_7f1201d7">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:minHeight">44.0dip</item>
+        <item name="android:text">close</item>
+    </style>
+    <style name="style_7f1201d8" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="style_7f1201d9" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@style/style_7f1201da</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="style_7f1201da" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/anim_7f01002c</item>
+        <item name="android:windowExitAnimation">@anim/anim_7f01002b</item>
+    </style>
+    <style name="style_7f1201db">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@style/style_7f1201da</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="style_7f1201dc" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/color_7f0500f2</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/color_7f0500fd</item>
+    </style>
+    <style name="style_7f1201dd" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/color_7f0500fb</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/color_7f0500fd</item>
+    </style>
+    <style name="style_7f1201de" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/color_7f0500fb</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/color_7f0500fd</item>
+    </style>
+    <style name="style_7f1201df" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/color_7f050127</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/color_7f0500fd</item>
+    </style>
+    <style name="style_7f1201e0" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowBackground">@drawable/drawable_7f070251</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="style_7f1201e1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="style_7f1201e2" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:selectableItemBackground">@drawable/drawable_7f070234</item>
+    </style>
+    <style name="style_7f1201e3" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="style_7f1201e4" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="style_7f1201e5" parent="@android:style/Widget" />
+    <style name="style_7f1201e6" parent="@style/AppBaseTheme">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarSize">46.0dip</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="attr_7f03009f">@color/color_7f0500f1</item>
+        <item name="attr_7f0300a6">@color/color_7f0500f1</item>
+        <item name="attr_7f0300a7">@color/color_7f0500f1</item>
+        <item name="attr_7f0301d0">false</item>
+    </style>
+    <style name="style_7f1201e7" parent="@style/style_7f1201e6">
+        <item name="android:exported">false</item>
+        <item name="android:configChanges">orientation|screenLayout|screenSize|smallestScreenSize|uiMode</item>
+        <item name="android:alwaysRetainTaskState">true</item>
+        <item name="android:hardwareAccelerated">true</item>
+        <item name="attr_7f03009f">@android:color/black</item>
+        <item name="attr_7f0300a6">@android:color/black</item>
+        <item name="attr_7f0300a7">@android:color/black</item>
+    </style>
+    <style name="style_7f1201e8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

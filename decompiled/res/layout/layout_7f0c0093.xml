@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:id="@id/id_7f09018f" android:layout_width="60.0dip" android:layout_height="60.0dip">
+            <ImageView android:id="@id/id_7f09016e" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/drawable_7f070135" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/id_7f090184" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_7f07015b" android:layout_alignTop="@id/id_7f09016e" android:layout_alignStart="@id/id_7f09016e" />
+            <com.dualspace.multispace.ui.widget.CornerMarkView android:id="@id/id_7f090410" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="3.0dip" android:layout_alignParentEnd="true" app:attr_7f03006f="@color/MT_Bin" app:attr_7f0301e6="id_7f090283" app:attr_7f030215="10.0dip" app:attr_7f030250="@color/color_7f050128" app:attr_7f030251="8.0sp" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/id_7f090408" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+    </LinearLayout>
+</merge>

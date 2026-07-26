@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/color_7f0500ba" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mbridge.msdk.playercommon.PlayerView android:id="@id/id_7f09023b" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mbridge.msdk.dycreator.baseview.cusview.MBridgeBaitClickView android:id="@id/id_7f0901b1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mbridge.msdk.dycreator.baseview.rewardpopview.MBAcquireRewardPopView android:id="@id/id_7f090211" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mbridge.msdk.dycreator.baseview.cusview.SoundImageView android:layout_gravity="bottom" android:id="@id/id_7f090219" android:visibility="visible" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/id_7f090243" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:progressDrawable="@drawable/drawable_7f0701d5" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <com.mbridge.msdk.dycreator.baseview.cusview.MBridgeSegmentsProgressBar android:layout_gravity="bottom" android:id="@id/id_7f090213" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/id_7f090222" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <com.mbridge.msdk.widget.FeedBackButton android:gravity="center" android:id="@id/id_7f0901f4" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/string_7f1100df" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_7f0500c8" android:gravity="center" android:id="@id/id_7f09022c" android:background="@drawable/drawable_7f0701d6" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/id_7f0901f4" />
+        <ImageView android:layout_gravity="end" android:id="@id/id_7f090218" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/drawable_7f0701a9" android:contentDescription="closeButton" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

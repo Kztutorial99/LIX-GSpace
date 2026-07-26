@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_7f0500d5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_7f090248" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="25.0dip" android:layout_above="@id/id_7f09023c" android:layout_alignParentTop="true">
+        <com.mbridge.msdk.videocommon.view.RoundImageView android:id="@id/id_7f09020f" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/color_7f0500d5" android:ellipsize="end" android:id="@id/id_7f090215" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:lines="1" android:layout_toRightOf="@id/id_7f09020f" android:layout_alignTop="@id/id_7f09020f" />
+        <com.mbridge.msdk.video.dynview.widget.MBridgeLevelLayoutView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_7f090214" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/id_7f090215" android:layout_alignLeft="@id/id_7f090215" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/id_7f09023c" android:background="@color/color_7f05009c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.mbridge.msdk.playercommon.PlayerView android:layout_gravity="center" android:id="@id/id_7f09023b" android:layout_width="fill_parent" android:layout_height="220.0dip" />
+        <com.mbridge.msdk.dycreator.baseview.cusview.MBridgeBaitClickView android:id="@id/id_7f0901b1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="220.0dip" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/id_7f090222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_alignParentTop="true">
+        <com.mbridge.msdk.widget.FeedBackButton android:textSize="11.0sp" android:gravity="center" android:id="@id/id_7f0901f4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:text="@string/string_7f1100df" android:layout_alignParentLeft="true" android:layout_marginStart="10.0dip" android:layout_alignParentStart="true" />
+        <TextView android:gravity="center" android:id="@id/id_7f09022c" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/id_7f0901f4" />
+        <ImageView android:layout_gravity="end" android:id="@id/id_7f090218" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/drawable_7f0701a9" android:layout_alignParentTop="true" android:contentDescription="closeButton" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_7f090205" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignBottom="@id/id_7f09023c">
+        <com.mbridge.msdk.dycreator.baseview.cusview.SoundImageView android:id="@id/id_7f090219" android:background="@drawable/drawable_7f0701ab" android:padding="6.0dip" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/drawable_7f0701bf" android:layout_alignBottom="@id/id_7f09023c" />
+        <com.mbridge.msdk.dycreator.baseview.cusview.MBridgeSegmentsProgressBar android:id="@id/id_7f090213" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="50.0dip" android:layout_below="@id/id_7f09023c" android:layout_alignParentBottom="true">
+        <TextView android:textSize="18.0sp" android:textColor="@color/color_7f0500d5" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/id_7f090209" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="40.0dip" android:lines="1" android:layout_above="@id/id_7f090207" />
+        <com.mbridge.msdk.dycreator.baseview.cusview.MBridgeTextView android:textSize="22.0sp" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/id_7f090207" android:layout_width="260.0dip" android:layout_height="50.0dip" android:maxLength="6" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:letterSpacing="0.1" />
+        <ImageView android:id="@id/id_7f090210" android:layout_width="50.0dip" android:layout_height="18.0dip" android:src="@drawable/drawable_7f0701ad" android:layout_below="@id/id_7f090207" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.mbridge.msdk.dycreator.baseview.rewardpopview.MBAcquireRewardPopView android:id="@id/id_7f090211" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

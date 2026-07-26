@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f120134" parent="@style/style_7f120132" />
+    <style name="style_7f120135" parent="@style/style_7f120132" />
+    <style name="style_7f120136" parent="@style/style_7f12013b" />
+    <style name="style_7f120137" parent="@style/style_7f12013c" />
+    <style name="style_7f120138" parent="@style/style_7f12013d" />
+    <style name="style_7f120139" parent="@style/style_7f12013e" />
+    <style name="style_7f12013a" parent="@style/style_7f120147" />
+    <style name="style_7f12014f" parent="@style/style_7f12014d" />
+</resources>

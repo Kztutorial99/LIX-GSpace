@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="my_images" path="images/" />
+    <files-path name="shared_pdf" path="shared_pdf" />
+    <external-path name="updateDemo" path="." />
+    <cache-path name="other_part_download_file" path="other" />
+    <external-path name="tt_external_root" path="." />
+    <external-path name="tt_external_download" path="Download" />
+    <external-files-path name="tt_external_files_download" path="Download" />
+    <files-path name="tt_internal_file_download" path="Download" />
+    <cache-path name="tt_internal_cache_download" path="Download" />
+    <external-cache-path name="gdt_sdk_download_path1" path="com_qq_e_download" />
+    <cache-path name="gdt_sdk_download_path2" path="com_qq_e_download" />
+    <external-path name="camera_photos" path="." />
+    <files-path name="hm_private_files" path="images" />
+    <cache-path name="hm_private_cache" path="images" />
+    <external-files-path name="hm_external_files" path="Pictures" />
+    <external-cache-path name="hm_external_cache" path="." />
+    <root-path name="public_cache" path="." />
+</paths>

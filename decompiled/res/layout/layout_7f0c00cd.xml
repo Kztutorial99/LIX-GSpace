@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_7f0903b3" android:background="@drawable/drawable_7f070289" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginBottom="-24.0dip" android:layout_alignBottom="@id/id_7f0903b6" android:layout_centerHorizontal="true" android:alpha="0.0" />
+    <ImageView android:id="@id/id_7f0903b5" android:background="@drawable/drawable_7f07028a" android:layout_width="67.0dip" android:layout_height="51.0dip" android:layout_marginLeft="-7.0dip" android:layout_marginBottom="-20.0dip" android:layout_toRightOf="@id/id_7f0903b6" android:layout_alignBottom="@id/id_7f0903b6" android:layout_centerHorizontal="true" android:alpha="0.0" />
+    <ImageView android:id="@id/id_7f0903b2" android:background="@drawable/drawable_7f070288" android:layout_width="10.0dip" android:layout_height="0.0dip" android:layout_alignBottom="@id/id_7f0903b6" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/id_7f0903b6" android:background="@drawable/drawable_7f070287" android:layout_width="14.0dip" android:layout_height="100.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0dip" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/id_7f0902a7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="wipe up" android:shadowColor="#99000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="4.0" android:layout_below="@id/id_7f0903b6" />
+    <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/id_7f0902a6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#99000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="4.0" android:layout_below="@id/id_7f0902a7" />
+</RelativeLayout>

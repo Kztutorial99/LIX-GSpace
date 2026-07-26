@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/id_7f090094" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/id_7f09009b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/id_7f090094" />
+    <FrameLayout android:id="@id/id_7f09009c" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_above="@id/id_7f090094" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@id/id_7f090097" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/id_7f090096" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    </FrameLayout>
+    <TextView android:textColor="@color/color_7f050033" android:id="@id/id_7f09009d" android:layout_marginLeft="@dimen/dimen_7f060086" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/dimen_7f060086" android:layout_marginBottom="20.0dip" android:layout_below="@id/id_7f090097" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/dimen_7f060086" android:layout_marginVertical="20.0dip" style="@style/style_7f1201ba" />
+    <TextView android:textColor="@color/color_7f050034" android:id="@id/id_7f090092" android:layout_marginLeft="@dimen/dimen_7f060086" android:layout_marginRight="@dimen/dimen_7f060086" android:layout_marginBottom="20.0dip" android:layout_below="@id/id_7f09009d" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/dimen_7f060086" style="@style/style_7f1201b9" />
+    <TextView android:textColor="@color/color_7f050034" android:id="@id/id_7f090090" android:layout_marginLeft="@dimen/dimen_7f060086" android:layout_marginRight="@dimen/dimen_7f060086" android:layout_below="@id/id_7f090092" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/dimen_7f060086" style="@style/style_7f1201b9" />
+    <Button android:textSize="15.0sp" android:id="@id/id_7f090093" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_7f060086" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/style_7f1201b1" />
+</RelativeLayout>

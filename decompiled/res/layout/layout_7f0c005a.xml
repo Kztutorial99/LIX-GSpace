@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/id_7f0902da" android:fitsSystemWindows="true" android:minHeight="?attr_7f030005" app:attr_7f030264="0.0dip" app:attr_7f030267="@style/style_7f120154" app:attr_7f030268="@color/color_7f050059" style="@style/style_7f1200d2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.ActionBarOverlayLayout android:id="@id/id_7f090103" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_7f0c0014" />
+    <androidx.appcompat.widget.ActionBarContainer android:gravity="top" android:id="@id/id_7f090034" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:touchscreenBlocksFocus="true" android:keyboardNavigationCluster="true" style="attr_7f030007">
+        <androidx.appcompat.widget.Toolbar android:id="@id/id_7f090032" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr_7f0301c2="@string/string_7f110001" style="attr_7f03026b" />
+        <androidx.appcompat.widget.ActionBarContextView android:theme="?attr_7f03000b" android:id="@id/id_7f09003a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="attr_7f03001d" />
+    </androidx.appcompat.widget.ActionBarContainer>
+</androidx.appcompat.widget.ActionBarOverlayLayout>

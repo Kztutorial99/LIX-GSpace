@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MT_Bin">16.0dip</dimen>
+    <dimen name="dimen_7f060001">72.0dip</dimen>
+    <dimen name="dimen_7f060002">56.0dip</dimen>
+    <dimen name="dimen_7f060003">0.0dip</dimen>
+    <dimen name="dimen_7f060004">0.0dip</dimen>
+    <dimen name="dimen_7f060005">4.0dip</dimen>
+    <dimen name="dimen_7f060006">16.0dip</dimen>
+    <dimen name="dimen_7f060007">10.0dip</dimen>
+    <dimen name="dimen_7f060008">6.0dip</dimen>
+    <dimen name="dimen_7f060009">48.0dip</dimen>
+    <dimen name="dimen_7f06000a">180.0dip</dimen>
+    <dimen name="dimen_7f06000b">5.0dip</dimen>
+    <dimen name="dimen_7f06000c">-3.0dip</dimen>
+    <dimen name="dimen_7f06000d">48.0dip</dimen>
+    <dimen name="dimen_7f06000e">48.0dip</dimen>
+    <dimen name="dimen_7f06000f">36.0dip</dimen>
+    <dimen name="dimen_7f060010">48.0dip</dimen>
+    <dimen name="dimen_7f060011">48.0dip</dimen>
+    <item type="dimen" name="dimen_7f060012">@dimen/dimen_7f060019</item>
+    <dimen name="dimen_7f060013">6.0dip</dimen>
+    <dimen name="dimen_7f060014">8.0dip</dimen>
+    <item type="dimen" name="dimen_7f060015">@dimen/dimen_7f06001a</item>
+    <dimen name="dimen_7f060016">720.0dip</dimen>
+    <dimen name="dimen_7f060017">320.0dip</dimen>
+    <dimen name="dimen_7f060018">2.0dip</dimen>
+    <dimen name="dimen_7f060019">4.0dip</dimen>
+    <dimen name="dimen_7f06001a">4.0dip</dimen>
+    <dimen name="dimen_7f06001b">2.0dip</dimen>
+    <item type="dimen" name="dimen_7f06001c">79.99999%</item>
+    <item type="dimen" name="dimen_7f06001d">100.0%</item>
+    <dimen name="dimen_7f06001e">320.0dip</dimen>
+    <dimen name="dimen_7f06001f">320.0dip</dimen>
+    <dimen name="dimen_7f060020">8.0dip</dimen>
+    <dimen name="dimen_7f060021">8.0dip</dimen>
+    <item type="dimen" name="dimen_7f060022">65.0%</item>
+    <item type="dimen" name="dimen_7f060023">95.00001%</item>
+    <dimen name="dimen_7f060024">24.0dip</dimen>
+    <dimen name="dimen_7f060025">18.0dip</dimen>
+    <dimen name="dimen_7f060026">8.0dip</dimen>
+    <item type="dimen" name="dimen_7f060027">0.3</item>
+    <item type="dimen" name="dimen_7f060028">0.26</item>
+    <dimen name="dimen_7f060029">32.0dip</dimen>
+    <dimen name="dimen_7f06002a">8.0dip</dimen>
+    <dimen name="dimen_7f06002b">8.0dip</dimen>
+    <dimen name="dimen_7f06002c">7.0dip</dimen>
+    <dimen name="dimen_7f06002d">4.0dip</dimen>
+    <dimen name="dimen_7f06002e">10.0dip</dimen>
+    <dimen name="dimen_7f06002f">16.0dip</dimen>
+    <dimen name="dimen_7f060030">80.0dip</dimen>
+    <dimen name="dimen_7f060031">64.0dip</dimen>
+    <dimen name="dimen_7f060032">48.0dip</dimen>
+    <item type="dimen" name="dimen_7f060033">@dimen/MT_Bin</item>
+    <dimen name="dimen_7f060034">296.0dip</dimen>
+    <dimen name="dimen_7f060035">4.0dip</dimen>
+    <dimen name="dimen_7f060036">48.0dip</dimen>
+    <dimen name="dimen_7f060037">320.0dip</dimen>
+    <dimen name="dimen_7f060038">2.0dip</dimen>
+    <dimen name="dimen_7f060039">2.0dip</dimen>
+    <dimen name="dimen_7f06003a">20.0dip</dimen>
+    <dimen name="dimen_7f06003b">0.0px</dimen>
+    <dimen name="dimen_7f06003c">14.0sp</dimen>
+    <dimen name="dimen_7f06003d">14.0sp</dimen>
+    <dimen name="dimen_7f06003e">14.0sp</dimen>
+    <dimen name="dimen_7f06003f">12.0sp</dimen>
+    <dimen name="dimen_7f060040">34.0sp</dimen>
+    <dimen name="dimen_7f060041">45.0sp</dimen>
+    <dimen name="dimen_7f060042">56.0sp</dimen>
+    <dimen name="dimen_7f060043">112.0sp</dimen>
+    <dimen name="dimen_7f060044">24.0sp</dimen>
+    <dimen name="dimen_7f060045">22.0sp</dimen>
+    <dimen name="dimen_7f060046">18.0sp</dimen>
+    <dimen name="dimen_7f060047">14.0sp</dimen>
+    <dimen name="dimen_7f060048">16.0sp</dimen>
+    <dimen name="dimen_7f060049">14.0sp</dimen>
+    <dimen name="dimen_7f06004a">16.0sp</dimen>
+    <dimen name="dimen_7f06004b">16.0dip</dimen>
+    <dimen name="dimen_7f06004c">20.0sp</dimen>
+    <dimen name="dimen_7f06004d">20.0dip</dimen>
+    <dimen name="dimen_7f06004e">16.0dip</dimen>
+    <dimen name="dimen_7f06004f">16.0dip</dimen>
+    <dimen name="dimen_7f060050">32.0dip</dimen>
+    <dimen name="dimen_7f060051">64.0dip</dimen>
+    <dimen name="dimen_7f060052">12.0dip</dimen>
+    <dimen name="dimen_7f060053">4.0dip</dimen>
+    <dimen name="dimen_7f060054">14.0sp</dimen>
+    <dimen name="dimen_7f060055">5.0dip</dimen>
+    <dimen name="dimen_7f060056">2.0dip</dimen>
+    <dimen name="dimen_7f060057">18.0dip</dimen>
+    <dimen name="dimen_7f060058">52.0dip</dimen>
+    <dimen name="dimen_7f060059">9.0dip</dimen>
+    <dimen name="dimen_7f06005a">52.0dip</dimen>
+    <dimen name="dimen_7f06005b">71.0dip</dimen>
+    <dimen name="dimen_7f06005c">150.0dip</dimen>
+    <dimen name="dimen_7f06005d">52.0dip</dimen>
+    <dimen name="dimen_7f06005e">24.0dip</dimen>
+    <dimen name="dimen_7f06005f">14.0sp</dimen>
+    <dimen name="dimen_7f060060">8.0dip</dimen>
+    <dimen name="dimen_7f060061">12.0sp</dimen>
+    <dimen name="dimen_7f060062">24.0dip</dimen>
+    <dimen name="dimen_7f060063">48.0dip</dimen>
+    <dimen name="dimen_7f060064">2.0dip</dimen>
+    <dimen name="dimen_7f060065">12.0dip</dimen>
+    <dimen name="dimen_7f060066">12.0dip</dimen>
+    <dimen name="dimen_7f060067">48.0dip</dimen>
+    <dimen name="dimen_7f060068">60.0dip</dimen>
+    <dimen name="dimen_7f060069">10.0dip</dimen>
+    <dimen name="dimen_7f06006a">10.0dip</dimen>
+    <dimen name="dimen_7f06006b">0.0dip</dimen>
+    <dimen name="dimen_7f06006c">4.0dip</dimen>
+    <dimen name="dimen_7f06006d">2.0dip</dimen>
+    <dimen name="dimen_7f06006e">14.0dip</dimen>
+    <dimen name="dimen_7f06006f">10.0dip</dimen>
+    <dimen name="dimen_7f060070">48.0dip</dimen>
+    <dimen name="dimen_7f060071">52.0dip</dimen>
+    <dimen name="dimen_7f060072">48.0dip</dimen>
+    <dimen name="dimen_7f060073">60.0dip</dimen>
+    <dimen name="dimen_7f060074">40.0dip</dimen>
+    <dimen name="dimen_7f060075">70.0dip</dimen>
+    <dimen name="dimen_7f060076">15.0sp</dimen>
+    <dimen name="dimen_7f060077">50.0dip</dimen>
+    <dimen name="dimen_7f060078">13.0sp</dimen>
+    <dimen name="dimen_7f060079">250.0dip</dimen>
+    <dimen name="dimen_7f06007a">300.0dip</dimen>
+    <dimen name="dimen_7f06007b">500.0dip</dimen>
+    <dimen name="dimen_7f06007c">20.0dip</dimen>
+    <dimen name="dimen_7f06007d">10.0dip</dimen>
+    <dimen name="dimen_7f06007e">4.0dip</dimen>
+    <dimen name="dimen_7f06007f">6.0dip</dimen>
+    <dimen name="dimen_7f060080">8.0dip</dimen>
+    <dimen name="dimen_7f060081">4.0dip</dimen>
+    <dimen name="dimen_7f060082">2.0dip</dimen>
+    <dimen name="dimen_7f060083">320.0dip</dimen>
+    <dimen name="dimen_7f060084">320.0dip</dimen>
+    <dimen name="dimen_7f060085">8.0dip</dimen>
+    <dimen name="dimen_7f060086">8.0dip</dimen>
+    <dimen name="dimen_7f060087">40.0dip</dimen>
+    <item type="dimen" name="dimen_7f060088">0.3</item>
+    <item type="dimen" name="dimen_7f060089">0.26</item>
+    <dimen name="dimen_7f06008a">8.0dip</dimen>
+    <dimen name="dimen_7f06008b">8.0dip</dimen>
+    <dimen name="dimen_7f06008c">0.0dip</dimen>
+    <dimen name="dimen_7f06008d">50.0dip</dimen>
+    <item type="dimen" name="dimen_7f06008e">0.26</item>
+    <item type="dimen" name="dimen_7f06008f">0.2</item>
+    <item type="dimen" name="dimen_7f060090">0.12</item>
+    <item type="dimen" name="dimen_7f060091">0.5</item>
+    <item type="dimen" name="dimen_7f060092">0.38</item>
+    <item type="dimen" name="dimen_7f060093">0.7</item>
+    <item type="dimen" name="dimen_7f060094">0.54</item>
+    <dimen name="dimen_7f060095">15.0dip</dimen>
+    <dimen name="dimen_7f060096">20.0dip</dimen>
+    <dimen name="dimen_7f060097">800.0dip</dimen>
+    <dimen name="dimen_7f060098">120.0dip</dimen>
+    <dimen name="dimen_7f060099">-1.0px</dimen>
+    <dimen name="dimen_7f06009a">30.0dip</dimen>
+    <dimen name="dimen_7f06009b">28.0dip</dimen>
+    <dimen name="dimen_7f06009c">38.0dip</dimen>
+    <dimen name="dimen_7f06009d">50.0dip</dimen>
+    <dimen name="dimen_7f06009e">18.0sp</dimen>
+    <dimen name="dimen_7f06009f">105.0dip</dimen>
+    <dimen name="dimen_7f0600a0">13.0dip</dimen>
+    <dimen name="dimen_7f0600a1">18.0sp</dimen>
+    <dimen name="dimen_7f0600a2">240.0dip</dimen>
+    <dimen name="dimen_7f0600a3">240.0dip</dimen>
+    <dimen name="dimen_7f0600a4">20.0sp</dimen>
+    <dimen name="dimen_7f0600a5">50.0dip</dimen>
+    <dimen name="dimen_7f0600a6">10.0dip</dimen>
+    <dimen name="dimen_7f0600a7">32.0dip</dimen>
+    <dimen name="dimen_7f0600a8">13.0sp</dimen>
+    <dimen name="dimen_7f0600a9">12.0dip</dimen>
+    <dimen name="dimen_7f0600aa">0.0dip</dimen>
+    <dimen name="dimen_7f0600ab">64.0dip</dimen>
+    <dimen name="dimen_7f0600ac">64.0dip</dimen>
+    <dimen name="dimen_7f0600ad">0.0dip</dimen>
+    <dimen name="dimen_7f0600ae">256.0dip</dimen>
+    <dimen name="dimen_7f0600af">12.0dip</dimen>
+    <dimen name="dimen_7f0600b0">128.0dip</dimen>
+    <dimen name="dimen_7f0600b1">64.0dip</dimen>
+    <dimen name="dimen_7f0600b2">4.0dip</dimen>
+    <dimen name="dimen_7f0600b3">-1.0dip</dimen>
+    <dimen name="dimen_7f0600b4">16.0dip</dimen>
+    <dimen name="dimen_7f0600b5">4.0dip</dimen>
+    <dimen name="dimen_7f0600b6">8.0dip</dimen>
+    <dimen name="dimen_7f0600b7">3.0dip</dimen>
+    <dimen name="dimen_7f0600b8">24.0dip</dimen>
+    <dimen name="dimen_7f0600b9">13.0sp</dimen>
+    <dimen name="dimen_7f0600ba">10.0dip</dimen>
+    <dimen name="dimen_7f0600bb">5.0dip</dimen>
+    <dimen name="dimen_7f0600bc">416.0dip</dimen>
+    <dimen name="dimen_7f0600bd">4.0dip</dimen>
+    <dimen name="dimen_7f0600be">2.0dip</dimen>
+    <dimen name="dimen_7f0600bf">16.0dip</dimen>
+    <dimen name="dimen_7f0600c0">8.0dip</dimen>
+    <dimen name="dimen_7f0600c1">8.0dip</dimen>
+    <dimen name="dimen_7f0600c2">96.0dip</dimen>
+    <dimen name="dimen_7f0600c3">6.5dip</dimen>
+    <dimen name="dimen_7f0600c4">0.0dip</dimen>
+    <dimen name="dimen_7f0600c5">16.0dip</dimen>
+    <dimen name="dimen_7f0600c6">228.0dip</dimen>
+    <dimen name="dimen_7f0600c7">160.0dip</dimen>
+    <dimen name="dimen_7f0600c8">15.0dip</dimen>
+    <dimen name="dimen_7f0600c9">14.0dip</dimen>
+    <dimen name="dimen_7f0600ca">20.0dip</dimen>
+    <dimen name="dimen_7f0600cb">15.0dip</dimen>
+    <dimen name="dimen_7f0600cc">0.0dip</dimen>
+</resources>

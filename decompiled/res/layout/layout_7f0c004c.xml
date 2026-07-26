@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/drawable_7f07011b" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/color_7f0500ee" android:gravity="center" android:id="@id/id_7f090422" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/string_7f110109" />
+        <ImageView android:id="@id/id_7f090178" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:src="@drawable/drawable_7f07014b" android:layout_below="@id/id_7f090422" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/color_7f0500ee" android:id="@id/id_7f090413" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="20.0dip" android:text="@string/string_7f110108" android:layout_below="@id/id_7f090178" android:lineSpacingExtra="6.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <Button android:id="@id/id_7f0900dd" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/string_7f1101c3" android:layout_below="@id/id_7f090413" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/style_7f1200ca" />
+    </RelativeLayout>
+</FrameLayout>

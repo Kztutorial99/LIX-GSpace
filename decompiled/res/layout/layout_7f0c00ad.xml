@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/id_7f090306" android:layout="@layout/layout_7f0c00c3" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+        <ViewStub android:id="@id/id_7f090305" android:layout="@layout/layout_7f0c00c4" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+        <ViewStub android:id="@id/id_7f090303" android:layout="@layout/layout_7f0c00c2" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.bytedance.sdk.component.widget.SSWebView android:id="@id/id_7f090307" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:layout_gravity="bottom|center" android:id="@id/id_7f090301" android:layout="@layout/layout_7f0c00c0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ProgressBar android:layout_gravity="center|top" android:id="@id/id_7f090304" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" android:progress="1" android:progressDrawable="@drawable/drawable_7f07021b" style="@android:style/Widget.ProgressBar.Horizontal" />
+            <ViewStub android:layout_gravity="bottom" android:id="@id/id_7f090302" android:layout="@layout/layout_7f0c00c1" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.bytedance.sdk.openadsdk.common.LandingPageLoadingLayout android:id="@id/id_7f090359" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

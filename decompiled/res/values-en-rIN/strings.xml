@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MT_Bin">Navigate home</string>
+    <string name="string_7f110001">Navigate up</string>
+    <string name="string_7f110002">More options</string>
+    <string name="string_7f110003">Done</string>
+    <string name="string_7f110004">See all</string>
+    <string name="string_7f110005">Choose an app</string>
+    <string name="string_7f110006">OFF</string>
+    <string name="string_7f110007">ON</string>
+    <string name="string_7f110008">Alt+</string>
+    <string name="string_7f110009">Ctrl+</string>
+    <string name="string_7f11000a">delete</string>
+    <string name="string_7f11000b">enter</string>
+    <string name="string_7f11000c">Function+</string>
+    <string name="string_7f11000d">Meta+</string>
+    <string name="string_7f11000e">Shift+</string>
+    <string name="string_7f11000f">space</string>
+    <string name="string_7f110010">Sym+</string>
+    <string name="string_7f110011">Menu+</string>
+    <string name="string_7f110012">Search…</string>
+    <string name="string_7f110013">Clear query</string>
+    <string name="string_7f110014">Search query</string>
+    <string name="string_7f110015">Search</string>
+    <string name="string_7f110016">Submit query</string>
+    <string name="string_7f110017">Voice search</string>
+    <string name="string_7f110018">Share with</string>
+    <string name="string_7f110019">Share with %s</string>
+    <string name="string_7f11001a">Collapse</string>
+    <string name="string_7f11008c">Link copied to clipboard</string>
+    <string name="string_7f1100ab">Copy link</string>
+    <string name="string_7f1100ac">Open in browser</string>
+    <string name="string_7f1100ad">Share link</string>
+    <string name="string_7f110120">Search</string>
+    <string name="string_7f110128">999+</string>
+</resources>

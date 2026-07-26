@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/drawable_7f0700e2" android:id="@id/id_7f090042" android:title="Share" android:showAsAction="always" />
+</menu>

@@ -1,0 +1,160 @@
+.class public Lcom/lody/virtual/client/a/c/aq/a;
+.super Lcom/lody/virtual/client/hook/base/l;
+.source "SafetyCenterManagerStub.java"
+
+
+# static fields
+.field private static final b:Ljava/lang/String; = "SafetyCenterManagerStub"
+
+.field private static final c:Ljava/lang/String; = "safety_center"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    sget-object v0, Lmirror/c/ab/a$a;->asInterface:Lmirror/a;
+
+    const-string v1, "safety_center"
+
+    invoke-direct {p0, v0, v1}, Lcom/lody/virtual/client/hook/base/l;-><init>(Lmirror/a;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected a()V
+    .locals 3
+
+    .line 1
+    invoke-super {p0}, Lcom/lody/virtual/client/hook/base/n;->a()V
+
+    .line 2
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const/4 v1, 0x0
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    const-string v2, "isSafetyCenterEnabled"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 3
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const/4 v1, 0x0
+
+    const-string v2, "clearSafetyCenterConfigForTests"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 4
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "setSafetyCenterConfigForTests"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 5
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "clearAllSafetySourceDataForTests"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 6
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "executeSafetyCenterIssueAction"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 7
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "removeOnSafetyCenterDataChangedListener"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 8
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "addOnSafetyCenterDataChangedListener"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 9
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "getSafetyCenterData"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 10
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "getSafetyCenterConfig"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 11
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "refreshSafetySources"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 12
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "reportSafetySourceError"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 13
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "getSafetySourceData"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    .line 14
+    new-instance v0, Lcom/lody/virtual/client/hook/base/f;
+
+    const-string v2, "setSafetySourceData"
+
+    invoke-direct {v0, v2, v1}, Lcom/lody/virtual/client/hook/base/f;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+
+    invoke-virtual {p0, v0}, Lcom/lody/virtual/client/hook/base/n;->k(Lcom/lody/virtual/client/hook/base/g;)Lcom/lody/virtual/client/hook/base/g;
+
+    return-void
+.end method

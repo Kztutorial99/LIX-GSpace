@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f120063" parent="@style/style_7f120081" />
+    <style name="style_7f12006a" parent="@style/style_7f120082" />
+    <style name="style_7f1200c6" parent="@style/style_7f120083" />
+    <style name="style_7f1201c4" parent="@style/style_7f1201c2">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="style_7f1201c5" parent="@style/style_7f1201c3">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="style_7f120081" parent="@style/style_7f12007f">
+        <item name="attr_7f0300a5">?android:colorError</item>
+    </style>
+    <style name="style_7f120082" parent="@style/style_7f120080">
+        <item name="attr_7f0300a5">?android:colorError</item>
+    </style>
+    <style name="style_7f120083" parent="@style/style_7f12008d">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>
